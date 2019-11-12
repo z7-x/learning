@@ -21,7 +21,7 @@ public class UserController {
 
     @RequestMapping(value = "/index")
     public String index(){
-        return "测试测试测试测www试";
+        return "测试测试测试测试Qi7777777";
     }
 
     @RequestMapping(value = "/show",method = RequestMethod.GET)
