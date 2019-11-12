@@ -22,7 +22,6 @@ public class UserService {
             user = userRepositoty.findByName(name);
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("出错");
         }
         return user;
     }
