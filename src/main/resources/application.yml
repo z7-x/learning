@@ -1,0 +1,22 @@
+  #配置端口
+  server:
+    port: 8081
+    tomcat:
+      uri-encoding: utf-8
+#  servlet:
+#    context-path: /test
+
+  #配置mysql
+  spring:
+    datasource:
+      url: jdbc:mysql://localhost:3306/test_database?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: root
+
+  #配置jpa及视图层
+  jpa:
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
