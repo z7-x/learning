@@ -1,6 +1,7 @@
 package com.example.springboot.controller;
 
 import com.example.springboot.entity.Department;
+import com.example.springboot.entity.Employee;
 import com.example.springboot.entity.SecDepartment;
 import com.example.springboot.entity.SecEmployee;
 import com.example.springboot.service.DeptHandleService;
@@ -82,10 +83,13 @@ public class DataHandleController {
      * 1、数据库新增列: alter table org_employee add UserId varchar(255)
      */
     @RequestMapping("/importEmployee")
-    public void empNoHandle(){
+    public void empNoHandle() throws Exception {
+        //老系统数据人员信息
         List<SecEmployee> secEmployeesList = secEmployeeService.getEmployeeAll();
+        //新系统人员数据
+        List<Employee> employeeList = employeeService.getAllEmployee();
         if(secEmployeesList.size()>0){
-          int count =  employeeService.addEmployee(secEmployeesList);
+          int count =  employeeService.addEmployee(secEmployeesList,employeeList);
           if(count>0){
               System.out.println("老系统员工同步成功！");
           }else{

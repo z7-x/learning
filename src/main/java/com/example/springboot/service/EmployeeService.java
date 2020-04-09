@@ -1,5 +1,6 @@
 package com.example.springboot.service;
 
+import com.example.springboot.entity.Employee;
 import com.example.springboot.entity.SecEmployee;
 
 import java.util.List;
@@ -13,9 +14,18 @@ import java.util.List;
  */
 
 public interface EmployeeService {
+    /**
+     * 查询人员信息
+     */
+    List<Employee> getAllEmployee();
 
     /**
      * 同步人员信息
      */
-    int addEmployee( List<SecEmployee> secEmployeesList);
+    int addEmployee( List<SecEmployee> secEmployeesList,List<Employee> employeeList) throws  Exception;
+
+    /**
+     * 根据SN查询人员编号
+     */
+    int getSnQuertyId(String sn);
 }

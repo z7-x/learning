@@ -3,7 +3,6 @@ package com.example.springboot.entity;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.util.List;
 
 /**
  * 项目名称：springboot-excel

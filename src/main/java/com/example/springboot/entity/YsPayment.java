@@ -29,4 +29,7 @@ public class YsPayment {
 
     @Column(name = "INS_ID")
     private String insId;
+
+    @Column(name ="UID")
+    private  String Uid;
 }
