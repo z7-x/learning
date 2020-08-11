@@ -58,13 +58,6 @@
     <logger name="org.hibernate.engine.QueryParameters" level="ERROR"/>
     <logger name="org.hibernate.engine.query.HQLQueryPlan" level="ERROR"/>
     <logger name="org.jfantasy.framework" level="ERROR"/>
-    <logger name="org.jfantasy.member.service" level="ERROR"/>
-    <logger name="net.whir.hos.search" level="DEBUG"/>
-    <!--
-    <logger name="net.whir.hos.datasync.engine" level="INFO">
-        <appender-ref ref="dataSyncDBAppender"/>
-    </logger>
-    -->
 
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>

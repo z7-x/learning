@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: server
+  datasource:
+    name: datasource
+    url: jdbc:mysql://127.0.0.1:3306/study-z7?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: root
+    druid:
+      maxActive: 20
+      initialSize: 10
+      maxWait: 60000
+      minIdle: 1
+
+jpa:
+  database: MYSQL
+  show-sql: true
+  hibernate:
+    ddl-auto: update
