@@ -1,0 +1,51 @@
+package learning.jpa.utils;
+
+import java.security.MessageDigest;
+
+/**
+ * @Classname MD5Util
+ * @Description TODO
+ * @Date 2020/8/12 6:39 下午
+ * @Author z7-x
+ */
+public class MD5Util {
+
+    /**
+     * @param inputParam
+     * @Description: 方法 backMD5 的功能描述：String字符串转MD5格式
+     * @Return java.lang.String
+     * @Author z7-x
+     * @Date 2020/8/12 6:41 下午
+     */
+    public static String backMD5(String inputParam) {
+
+        MessageDigest md5 = null;
+        try {
+            md5 = MessageDigest.getInstance("MD5");
+        } catch (Exception e) {
+            System.out.println(e.toString());
+            e.printStackTrace();
+            return "";
+        }
+
+        char[] charArray = inputParam.toCharArray();
+        byte[] byteArray = new byte[charArray.length];
+
+        for (int i = 0; i < charArray.length; i++)
+            byteArray[i] = (byte) charArray[i];
+
+        byte[] md5Bytes = md5.digest(byteArray);
+        StringBuffer hexValue = new StringBuffer();
+
+        for (int i = 0; i < md5Bytes.length; i++) {
+
+            int val = ((int) md5Bytes[i]) & 0xff;
+            if (val < 16)
+                hexValue.append("0");
+            hexValue.append(Integer.toHexString(val));
+        }
+
+        return hexValue.toString();
+
+    }
+}

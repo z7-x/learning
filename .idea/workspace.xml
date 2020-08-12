@@ -19,7 +19,59 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="568d4af5-0de7-4cab-91d3-e6722dc6da59" name="Default Changelist" comment="" />
+    <list default="true" id="568d4af5-0de7-4cab-91d3-e6722dc6da59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/dao/PermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/PermissionServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/test/java/learning/jpa/utils/MD5UtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/entity/BContactDetail.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,9 +81,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -72,13 +125,15 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573780262922" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/com/example/springbootfreemarker" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jpa/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jpa" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,13 +142,17 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3873563" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.springboot.service.impl" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="learning.jpa.utils" />
       <recent name="com.example.springboot.service.impl" />
       <recent name="com.example.springboot.controller" />
       <recent name="com.example.springbootfreemarker.service.impl" />
@@ -107,11 +166,8 @@
       <recent name="com.example.springbootfreemarker.service.impl" />
       <recent name="com.example.springbootfreemarker.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jpa/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jpa" />
       <recent name="$PROJECT_DIR$/jpa/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -123,11 +179,25 @@
       <recent name="com.example.springboot.repository" />
       <recent name="com.example.springbootfreemarker.entity" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.springboot.service.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jpa/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.JpaApplication">
+    <configuration name="MD5UtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.jpa.utils.MD5UtilTest" />
+      <module name="jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.jpa.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestStream.StreamAllMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-jpa" />
       <extension name="coverage">
@@ -155,22 +225,6 @@
       <option name="PACKAGE_NAME" value="com.example.springboot.test" />
       <option name="MAIN_CLASS_NAME" value="com.example.springboot.test.TestStream" />
       <option name="METHOD_NAME" value="StreamMin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStream.StreamNoneMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springboot.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.springboot.test" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springboot.test.TestStream" />
-      <option name="METHOD_NAME" value="StreamNoneMatch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,7 +266,8 @@
       <module name="jpa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="learning.jpa.JpaApplication" />
       <option name="ACTIVE_PROFILES" value="dev" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -233,8 +288,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.MD5UtilTest" />
       <item itemvalue="Docker.PackProject" />
-      <item itemvalue="JUnit.TestStream.StreamNoneMatch" />
       <item itemvalue="JUnit.TestStream.StreamAllMatch" />
       <item itemvalue="JUnit.TestStream.StreamMin" />
       <item itemvalue="JUnit.TestStream.StreamReduce" />
@@ -243,11 +298,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MD5UtilTest" />
         <item itemvalue="JUnit.map.ces" />
         <item itemvalue="JUnit.TestStream.StreamReduce" />
         <item itemvalue="JUnit.TestStream.StreamMin" />
         <item itemvalue="JUnit.TestStream.StreamAllMatch" />
-        <item itemvalue="JUnit.TestStream.StreamNoneMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +446,8 @@
       <workItem from="1597115523419" duration="892000" />
       <workItem from="1597116671430" duration="266000" />
       <workItem from="1597124033329" duration="2125000" />
-      <workItem from="1597127904350" duration="6035000" />
+      <workItem from="1597127904350" duration="12813000" />
+      <workItem from="1597217880856" duration="11232000" />
     </task>
     <task id="LOCAL-00001" summary="springboot+jpa">
       <created>1573534671543</created>
@@ -463,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597134317386</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="jpa框架搭建">
+      <created>1597134547088</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597134547088</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,14 +564,18 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="328" y="106" key="#Project_Structure" timestamp="1597129814701">
+    <state x="328" y="106" key="#Project_Structure" timestamp="1597212610281">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1597129814701" />
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597133514979">
+    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1597212610281" />
+    <state x="577" y="349" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1597216406773">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597133514979" />
+    <state x="577" y="349" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597216406773" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597229219080">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597229219080" />
     <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1597115636732">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -533,86 +600,90 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1051" y="171" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1590462881130" />
-    <state x="354" y="117" key="CommitChangelistDialog2" timestamp="1597134317210">
+    <state x="354" y="117" key="CommitChangelistDialog2" timestamp="1597134546976">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="354" y="117" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1597134317210" />
+    <state x="354" y="117" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1597134546976" />
     <state x="700" y="429" width="279" height="280" key="Github.ShareDialog" timestamp="1597116645114">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="700" y="429" width="279" height="280" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597116645114" />
-    <state width="1638" height="442" key="GridCell.Tab.0.bottom" timestamp="1597134022570">
+    <state width="1638" height="454" key="GridCell.Tab.0.bottom" timestamp="1597229897042">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="442" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1597134022570" />
-    <state width="1638" height="368" key="GridCell.Tab.0.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1591012403115" />
-    <state width="1638" height="442" key="GridCell.Tab.0.center" timestamp="1597134022568">
+    <state width="1638" height="454" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1597229897042" />
+    <state width="1638" height="478" key="GridCell.Tab.0.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1597224119798" />
+    <state width="1638" height="454" key="GridCell.Tab.0.center" timestamp="1597229897034">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="442" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1597134022568" />
-    <state width="1638" height="368" key="GridCell.Tab.0.center/45.23.1635.1027@45.23.1635.1027" timestamp="1591012403114" />
-    <state width="1638" height="442" key="GridCell.Tab.0.left" timestamp="1597134022567">
+    <state width="1638" height="454" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1597229897034" />
+    <state width="1638" height="478" key="GridCell.Tab.0.center/45.23.1635.1027@45.23.1635.1027" timestamp="1597224119777" />
+    <state width="1638" height="454" key="GridCell.Tab.0.left" timestamp="1597229897033">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="442" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1597134022567" />
-    <state width="1638" height="368" key="GridCell.Tab.0.left/45.23.1635.1027@45.23.1635.1027" timestamp="1591012403114" />
-    <state width="1638" height="442" key="GridCell.Tab.0.right" timestamp="1597134022569">
+    <state width="1638" height="454" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1597229897033" />
+    <state width="1638" height="478" key="GridCell.Tab.0.left/45.23.1635.1027@45.23.1635.1027" timestamp="1597224119776" />
+    <state width="1638" height="454" key="GridCell.Tab.0.right" timestamp="1597229897041">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="442" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1597134022569" />
-    <state width="1638" height="368" key="GridCell.Tab.0.right/45.23.1635.1027@45.23.1635.1027" timestamp="1591012403115" />
-    <state width="1638" height="442" key="GridCell.Tab.1.bottom" timestamp="1597134022572">
+    <state width="1638" height="454" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1597229897041" />
+    <state width="1638" height="478" key="GridCell.Tab.0.right/45.23.1635.1027@45.23.1635.1027" timestamp="1597224119788" />
+    <state width="1638" height="454" key="GridCell.Tab.1.bottom" timestamp="1597229897044">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="442" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1597134022572" />
-    <state width="1638" height="354" key="GridCell.Tab.1.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1590461920228" />
-    <state width="1638" height="442" key="GridCell.Tab.1.center" timestamp="1597134022571">
+    <state width="1638" height="454" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1597229897044" />
+    <state width="1638" height="478" key="GridCell.Tab.1.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1597224119572" />
+    <state width="1638" height="454" key="GridCell.Tab.1.center" timestamp="1597229897043">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="442" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1597134022571" />
-    <state width="1638" height="354" key="GridCell.Tab.1.center/45.23.1635.1027@45.23.1635.1027" timestamp="1590461920226" />
-    <state width="1638" height="442" key="GridCell.Tab.1.left" timestamp="1597134022570">
+    <state width="1638" height="454" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1597229897043" />
+    <state width="1638" height="478" key="GridCell.Tab.1.center/45.23.1635.1027@45.23.1635.1027" timestamp="1597224119569" />
+    <state width="1638" height="454" key="GridCell.Tab.1.left" timestamp="1597229897043">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="442" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1597134022570" />
-    <state width="1638" height="354" key="GridCell.Tab.1.left/45.23.1635.1027@45.23.1635.1027" timestamp="1590461920225" />
-    <state width="1638" height="442" key="GridCell.Tab.1.right" timestamp="1597134022572">
+    <state width="1638" height="454" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1597229897043" />
+    <state width="1638" height="478" key="GridCell.Tab.1.left/45.23.1635.1027@45.23.1635.1027" timestamp="1597224119568" />
+    <state width="1638" height="454" key="GridCell.Tab.1.right" timestamp="1597229897044">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="442" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1597134022572" />
-    <state width="1638" height="354" key="GridCell.Tab.1.right/45.23.1635.1027@45.23.1635.1027" timestamp="1590461920227" />
-    <state width="1638" height="442" key="GridCell.Tab.2.bottom" timestamp="1597134022575">
+    <state width="1638" height="454" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1597229897044" />
+    <state width="1638" height="478" key="GridCell.Tab.1.right/45.23.1635.1027@45.23.1635.1027" timestamp="1597224119571" />
+    <state width="1638" height="454" key="GridCell.Tab.2.bottom" timestamp="1597229897047">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="442" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1597134022575" />
-    <state width="1638" height="442" key="GridCell.Tab.2.center" timestamp="1597134022574">
+    <state width="1638" height="454" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1597229897047" />
+    <state width="1638" height="478" key="GridCell.Tab.2.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1597224119576" />
+    <state width="1638" height="454" key="GridCell.Tab.2.center" timestamp="1597229897045">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="442" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1597134022574" />
-    <state width="1638" height="442" key="GridCell.Tab.2.left" timestamp="1597134022573">
+    <state width="1638" height="454" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1597229897045" />
+    <state width="1638" height="478" key="GridCell.Tab.2.center/45.23.1635.1027@45.23.1635.1027" timestamp="1597224119574" />
+    <state width="1638" height="454" key="GridCell.Tab.2.left" timestamp="1597229897045">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="442" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1597134022573" />
-    <state width="1638" height="442" key="GridCell.Tab.2.right" timestamp="1597134022574">
+    <state width="1638" height="454" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1597229897045" />
+    <state width="1638" height="478" key="GridCell.Tab.2.left/45.23.1635.1027@45.23.1635.1027" timestamp="1597224119573" />
+    <state width="1638" height="454" key="GridCell.Tab.2.right" timestamp="1597229897046">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="442" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1597134022574" />
+    <state width="1638" height="454" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1597229897046" />
+    <state width="1638" height="478" key="GridCell.Tab.2.right/45.23.1635.1027@45.23.1635.1027" timestamp="1597224119575" />
     <state x="723" y="398" width="429" height="253" key="MultipleFileMergeDialog" timestamp="1597134416353">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="723" y="398" width="429" height="253" key="MultipleFileMergeDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597134416353" />
-    <state x="349" y="164" key="SettingsEditor" timestamp="1597133312226">
+    <state x="349" y="164" key="SettingsEditor" timestamp="1597217775769">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1597133312226" />
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1597217775769" />
     <state x="542" y="236" key="VCS.ChangeListViewerDialog" timestamp="1597127866000">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="542" y="236" key="VCS.ChangeListViewerDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597127866000" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1597134322715">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1597134554466">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1597134322715" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1597134554466" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1590461007748">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -625,6 +696,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="631" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1597127926941" />
+    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597229010112">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597229010112" />
     <state x="654" y="250" key="git4idea.branch.GitBranchIsNotFullyMergedDialog" timestamp="1597127435427">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -637,10 +712,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="561" y="426" key="git4idea.ui.GitResetDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597127868558" />
-    <state x="234" y="87" width="1247" height="875" key="new project wizard" timestamp="1597133227732">
+    <state x="234" y="87" width="1247" height="875" key="new project wizard" timestamp="1597204171926">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="234" y="87" width="1247" height="875" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1597133227732" />
+    <state x="234" y="87" width="1247" height="875" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1597204171926" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -657,10 +732,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_leading_in$AnalysisExcelCMSIntegral.ic" NAME="AnalysisExcelCMSIntegral Coverage Results" MODIFIED="1590460386887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

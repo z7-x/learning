@@ -3,7 +3,8 @@ spring:
     name: server
   datasource:
     name: datasource
-    url: jdbc:mysql://127.0.0.1:3306/study-z7?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://127.0.0.1:3306/learning?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
     druid:
@@ -11,9 +12,3 @@ spring:
       initialSize: 10
       maxWait: 60000
       minIdle: 1
-
-jpa:
-  database: MYSQL
-  show-sql: true
-  hibernate:
-    ddl-auto: update
