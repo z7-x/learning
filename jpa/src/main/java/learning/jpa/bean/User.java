@@ -1,5 +1,8 @@
 package learning.jpa.bean;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import learning.jpa.bean.basis.BaseBusEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -7,7 +10,6 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -22,18 +24,22 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @Table(name = "LEARN_USER")
-public class User implements Serializable {
+@ApiModel(description = "用户信息")
+public class User extends BaseBusEntity {
     @Id
     @Column(name = "USER_ID")
     @GeneratedValue(generator = "learn_user_index_gen")
     @TableGenerator(name = "learn_user_index_gen", table = "sys_sequence", pkColumnName = "gen_name", pkColumnValue = "learn_user_index:id", valueColumnName = "gen_value")
+    @ApiModelProperty(value = "用户编号")
     private Long userId;
 
     @NotNull(message = "用户名不能为空")
     @Column(name = "USER_NAME", nullable = false, length = 10)
+    @ApiModelProperty(value = "用户名称")
     private String userName;
 
     @NotNull(message = "密码不能为空")
+    @ApiModelProperty(value = "用户密码")
     @Column(name = "PASS_WORD", nullable = false, length = 32)
     private String passWord;
 

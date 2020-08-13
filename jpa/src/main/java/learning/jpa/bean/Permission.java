@@ -1,6 +1,6 @@
 package learning.jpa.bean;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
+import learning.jpa.bean.basis.BaseBusEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -23,7 +22,7 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @Table(name = "LEARN_PERMISSION")
-public class Permission implements Serializable {
+public class Permission extends BaseBusEntity {
     @Id
     @Column(name = "PERMISSION_ID")
     @GeneratedValue(generator = "learn_permission_index_gen")
@@ -34,20 +33,20 @@ public class Permission implements Serializable {
     @Column(name = "PERMISSION_NAME", nullable = false, length = 10)
     private String permissionName;
 
-    /**
-     * 权限父级id
-     */
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.REFRESH)
-    @JoinColumn(name = "PID", foreignKey = @ForeignKey(name = "FK_PERMISSION_PID"))
-    private Permission pid;
-
-    /**
-     * 权限子级id
-     */
-    @JsonInclude(content = JsonInclude.Include.NON_NULL)
-    @OneToMany(mappedBy = "pid", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
-    @OrderBy("permissionId ASC ")
-    private List<Permission> children;
+//    /**
+//     * 权限父级id
+//     */
+//    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.REFRESH)
+//    @JoinColumn(name = "PID", foreignKey = @ForeignKey(name = "FK_PERMISSION_PID"))
+//    private Permission pid;
+//
+//    /**
+//     * 权限子级id
+//     */
+//    @JsonInclude(content = JsonInclude.Include.NON_NULL)
+//    @OneToMany(mappedBy = "pid", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
+//    @OrderBy("permissionId ASC ")
+//    private List<Permission> children;
 
     @ManyToMany(targetEntity = Role.class, mappedBy = "permissions", fetch = FetchType.LAZY)
     private List<Role> roles;

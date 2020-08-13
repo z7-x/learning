@@ -26,4 +26,14 @@ logging:
   file:
     path: ~/logs
 
+# 配置Swagger相关信息
+swagger:
+  title: API接口文档
+  description: z7-x Api Documentation
+  version: 1.0.0
+  contact:
+    name: 谢中奇
+    url: https://www.baidu.com
+    email: https://mail.qq.com/
+
 

@@ -1,6 +1,5 @@
 package learning.jpa.bean;
-
-import com.fasterxml.jackson.annotation.JsonInclude;
+import learning.jpa.bean.basis.BaseBusEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -8,7 +7,6 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -23,7 +21,7 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @Table(name = "LEARN_ROLE")
-public class Role implements Serializable {
+public class Role extends BaseBusEntity {
     @Id
     @Column(name = "ROLE_ID")
     @GeneratedValue(generator = "learn_role_index_gen")
@@ -34,20 +32,20 @@ public class Role implements Serializable {
     @Column(name = "ROLE_NAME", nullable = false, length = 10)
     private String roleName;
 
-    /**
-     * 角色父级id
-     */
-    @ManyToOne(cascade = CascadeType.REFRESH)
-    @JoinColumn(name = "PID", foreignKey = @ForeignKey(name = "FK_ROLE_PID"))
-    private Role pid;
-
-    /**
-     * 角色子级id
-     */
-    @JsonInclude(content = JsonInclude.Include.NON_NULL)
-    @OneToMany(mappedBy = "pid", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
-    @OrderBy("roleId ASC ")
-    private List<Role> children;
+//    /**
+//     * 角色父级id
+//     */
+//    @ManyToOne(cascade = CascadeType.REFRESH)
+//    @JoinColumn(name = "PID", foreignKey = @ForeignKey(name = "FK_ROLE_PID"))
+//    private Role pid;
+//
+//    /**
+//     * 角色子级id
+//     */
+//    @JsonInclude(content = JsonInclude.Include.NON_NULL)
+//    @OneToMany(mappedBy = "pid", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
+//    @OrderBy("roleId ASC ")
+//    private List<Role> children;
 
     @ManyToMany(targetEntity = User.class, mappedBy = "roles", fetch = FetchType.LAZY)
     private List<User> users;

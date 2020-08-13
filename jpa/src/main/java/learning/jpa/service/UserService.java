@@ -2,15 +2,16 @@ package learning.jpa.service;
 
 import learning.jpa.bean.User;
 import learning.jpa.dao.UserDao;
+import learning.jpa.utils.MD5Util;
 import org.apache.commons.collections.ListUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Example;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
 import javax.transaction.Transactional;
 import java.util.List;
-import java.util.Optional;
 
 /**
  * @Classname UserService
@@ -51,6 +52,7 @@ public class UserService {
         if (null == user) {
             return null;
         }
+        user.setPassWord(MD5Util.backMD5(user.getPassWord()));
         return userDao.save(user);
     }
 
@@ -65,12 +67,13 @@ public class UserService {
         if (null == user.getUserId()) {
             return null;
         }
+        user.setPassWord(MD5Util.backMD5(user.getPassWord()));
         return userDao.save(user);
     }
 
     /**
-     * @Description: 方法 deleteUser 的功能描述：删除 用户信息
      * @param userId
+     * @Description: 方法 deleteUser 的功能描述：删除 用户信息
      * @Return java.lang.Boolean
      * @Author z7-x
      * @Date 2020/8/12 7:16 下午

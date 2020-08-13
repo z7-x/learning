@@ -8,17 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="shrio" />
         <module name="jpa" />
+        <module name="swagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jpa" target="1.8" />
       <module name="shrio" target="1.8" />
+      <module name="swagger" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="jpa" options="-parameters" />
       <module name="shrio" options="-parameters" />
+      <module name="swagger" options="-parameters" />
     </option>
   </component>
 </project>
