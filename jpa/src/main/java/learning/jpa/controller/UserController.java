@@ -1,8 +1,6 @@
 package learning.jpa.controller;
 
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
+import io.swagger.annotations.*;
 import learning.jpa.bean.User;
 import learning.jpa.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +17,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/user")
-@Api(tags = "基础用户控制", description = "新增、修改、删除、查询及添加操作角色")
+@Api(tags = "基础用户控制", description = "CRUD操作")
 public class UserController {
 
     @Autowired
@@ -31,18 +29,26 @@ public class UserController {
         return userService.findUsers();
     }
 
+    @ApiOperation(value = "新增用户信息", notes = "新增用户信息")
     @RequestMapping(method = RequestMethod.POST, value = "/createUser")
-    public ResponseEntity<User> createUser(@RequestBody @ApiParam(value = "新增用户信息", required = true) User user) {
+    public ResponseEntity<User> createUser(@RequestBody
+                                               @ApiParam(value = "输入用户对象", required = true) User user) {
         return ResponseEntity.ok(userService.createUser(user));
     }
 
+    @ApiOperation(value = "修改用户信息", notes = "修改用户信息")
     @RequestMapping(method = RequestMethod.POST, value = "/updateUser")
-    public User updateUser(@RequestBody @ApiParam(value = "修改用户信息", required = true) User user) {
+    public User updateUser(@RequestBody
+                               @ApiParam(value = "输入用户对象", required = true) User user) {
         return userService.updateUser(user);
     }
 
+    @ApiOperation(value = "删除用户信息", notes = "删除用户信息")
+    //paramType = "query" 用于get/post请求的参数拼接，请求参数的获取：@RequestParam(代码中接收注解)
+    //@ApiImplicitParam(name = "userId", value = "用户id", required = true, paramType = "query")
     @RequestMapping(method = RequestMethod.GET, value = "/deleteUser")
-    public Boolean updateUser(@RequestParam(required = true) @ApiParam(value = "删除用户", required = true) Long userId) {
+    public Boolean updateUser(@RequestParam
+                                  @ApiParam(value = "输入用户id", required = true) Long userId) {
         return userService.deleteUser(userId);
     }
 }

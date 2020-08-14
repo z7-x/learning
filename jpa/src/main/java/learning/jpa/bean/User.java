@@ -7,6 +7,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -28,10 +29,10 @@ import java.util.List;
 public class User extends BaseBusEntity {
     @Id
     @Column(name = "USER_ID")
-    @GeneratedValue(generator = "learn_user_index_gen")
-    @TableGenerator(name = "learn_user_index_gen", table = "sys_sequence", pkColumnName = "gen_name", pkColumnValue = "learn_user_index:id", valueColumnName = "gen_value")
+    @GenericGenerator(name = "idGenerator",strategy = "uuid")
+    @GeneratedValue(generator="idGenerator")
     @ApiModelProperty(value = "用户编号")
-    private Long userId;
+    private String userId;
 
     @NotNull(message = "用户名不能为空")
     @Column(name = "USER_NAME", nullable = false, length = 10)

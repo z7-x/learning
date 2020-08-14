@@ -1,6 +1,7 @@
 package learning.jpa.controller;
 
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import learning.jpa.bean.Role;
 import learning.jpa.service.RoleService;
@@ -18,14 +19,15 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/role")
-@Api(tags = "角色控制", description = "新增、修改、删除、查询及添加操作权限")
+@Api(tags = "角色控制", description = "CRUD操作")
 public class RoleController {
 
     @Autowired
     private RoleService roleService;
 
+    @ApiOperation(value = "新增角色信息", notes = "新增角色信息")
     @RequestMapping(method = RequestMethod.POST, value = "/createRole")
-    public Role createUser(@RequestBody @ApiParam(value = "新增角色信息", required = true) Role role) {
+    public Role createUser(@RequestBody @ApiParam(value = "输入角色对象", required = true) Role role) {
         return roleService.createRole(role);
     }
 }
