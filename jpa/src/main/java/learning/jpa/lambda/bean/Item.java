@@ -6,18 +6,17 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @Classname Employee
+ * @Classname Item
  * @Description TODO
- * @Date 2020/8/14 5:02 下午
+ * @Date 2020/8/17 5:20 下午
  * @Author z7-x
  */
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Employee {
+public class Item {
+    private int id;
     private String name;
-    private Integer age;
-    private double salary;
-
+    private double price;
 }

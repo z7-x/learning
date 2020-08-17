@@ -1,5 +1,6 @@
 package learning.jpa.lambda.test;
 
+import learning.jpa.lambda.service.impl.MyFunInterface;
 import org.junit.Test;
 
 import java.util.Comparator;
@@ -27,7 +28,7 @@ public class TestLambda2 {
      * 语法格式三：若只有一个参数，小括号可以省略不写
      * x-> System.out.println(x);
      * <p>
-     * 语法格式四：若有两个以上的参数，并且Lambda体中有多条语句，有返回值
+     * 语法格式四：若有两个以上的参数，并且Lambda体中有多条语句，要写{},有返回值
      * <p>
      * 语法格式五：若Lambda体中只有一条语句，return 和{} 都可以省略不写
      * <p>
@@ -78,4 +79,19 @@ public class TestLambda2 {
         comparable.compare(10, 20);
     }
 
+    @Test
+    public void Test7() {
+        String string = strHandle("z7zz", item -> item.toUpperCase());
+        System.out.println(string);
+    }
+
+    //处理字符串
+    public String strHandle(String str, MyFunInterface myFunInterface) {
+        return myFunInterface.getValue(str);
+    }
+
+    @Test
+    public void Test8() {
+
+    }
 }

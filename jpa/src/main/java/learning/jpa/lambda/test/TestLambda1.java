@@ -4,10 +4,10 @@ import learning.jpa.lambda.bean.Employee;
 import learning.jpa.lambda.service.EmployeeByAgeFilter;
 import learning.jpa.lambda.service.impl.MyPredicate;
 import org.junit.Test;
+import org.springframework.util.CollectionUtils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.io.PrintStream;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -95,12 +95,38 @@ public class TestLambda1 {
                 .collect(Collectors.toList());
 
         for (Employee employee : collect) {
-            System.out.println("11"+employee);
+            System.out.println("11" + employee);
         }
-        
+
         List<String> goodsNameList = employees.stream().map(Employee::getName).collect(Collectors.toList());
         for (String employee : goodsNameList) {
-            System.out.println("22"+employee);
+            System.out.println("22" + employee);
+        }
+    }
+
+    @Test
+    public void test6() {
+        //排序 默认升序 |  reversed：降序
+        List<Employee> collect = employees.stream().sorted(Comparator.comparing(Employee::getAge))
+                .collect(Collectors.toList());
+
+        for (Employee employee : collect) {
+            System.out.println("升序" + employee);
+        }
+    }
+
+    @Test
+    public void test7() {
+        Collections.sort(employees, (e1, e2) -> {
+            if (e1.getAge() == e2.getAge()) {
+                return e1.getName().compareTo(e2.getName());
+            } else {
+                return Integer.compare(e1.getAge(), e2.getAge());
+            }
+        });
+
+        for (Employee employee : employees) {
+            System.out.println(employee);
         }
     }
 
