@@ -16,32 +16,46 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="568d4af5-0de7-4cab-91d3-e6722dc6da59" name="Default Changelist" comment="新增lambda 目录">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/Task.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/AnalysisXMLController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/bean/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/instructions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ItemCreatorBlankConstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ItemCreatorParamConstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/MyFunInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/NoReturnMultiParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/NoReturnNoParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/NoReturnOneParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ReturnMultiParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ReturnNoParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ReturnOneParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/test/TestLambda3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/MyFunInterface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/test/TestLambda4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/test/TestLambda5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/XMLDocumentService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/utils/DOM4XMLUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/bean/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/bean/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/bean/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/bean/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/instructions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/instructions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/EmployeeByAgeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/EmployeeByAgeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/EmployeeBySalaryFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/EmployeeBySalaryFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ItemCreatorBlankConstruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ItemCreatorBlankConstruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ItemCreatorParamConstruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ItemCreatorParamConstruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/MyFunInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/MyFunInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/MyFunctionalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/MyFunctionalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/MyPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/MyPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/NoReturnMultiParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/NoReturnMultiParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/NoReturnNoParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/NoReturnNoParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/NoReturnOneParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/NoReturnOneParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ReturnMultiParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ReturnMultiParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ReturnNoParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ReturnNoParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ReturnOneParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/service/impl/ReturnOneParam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/test/TestLambda1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/test/TestLambda1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/test/TestLambda2.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/test/TestLambda2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/test/TestLambda3.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda/test/TestLambda3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,10 +86,11 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="data-import" />
+        <entry key="$PROJECT_DIR$" value="huitui1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
@@ -164,7 +179,7 @@
       <recent name="com.example.springboot.service.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLambda2.Test7">
+  <component name="RunManager" selected="Spring Boot.JpaApplication">
     <configuration name="TestLambda1.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa" />
       <extension name="coverage">
@@ -272,12 +287,12 @@
     </configuration>
     <list>
       <item itemvalue="Docker.PackProject" />
-      <item itemvalue="Spring Boot.JpaApplication" />
       <item itemvalue="JUnit.TestLambda3.testCaseMethod1" />
       <item itemvalue="JUnit.TestLambda3.testCaseMethod2" />
       <item itemvalue="JUnit.TestLambda3.testThread" />
       <item itemvalue="JUnit.TestLambda1.test7" />
       <item itemvalue="JUnit.TestLambda2.Test7" />
+      <item itemvalue="Spring Boot.JpaApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -568,7 +583,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -614,14 +641,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="577" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597129099430" />
-    <state x="402" y="456" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1597373514869">
+    <state x="402" y="456" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1597742113554">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="402" y="456" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597373514869" />
-    <state x="615" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1597373516776">
+    <state x="402" y="456" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597742113554" />
+    <state x="615" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1597742115324">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="615" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1680.1050@0.0.1680.1050" timestamp="1597373516776" />
+    <state x="615" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1680.1050@0.0.1680.1050" timestamp="1597742115324" />
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597651999490">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

@@ -20,4 +20,7 @@ public class Employee {
     private Integer age;
     private double salary;
 
+    public Employee(String name) {
+        this.name = name;
+    }
 }

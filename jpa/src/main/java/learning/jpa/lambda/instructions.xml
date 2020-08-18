@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<lambda:root xmlns:lambda ="http://www.w3.org/1999/xhtml">
+<lambda:root xmlns:lambda="http://www.w3.org/1999/xhtml">
     <title>Lambda 文档说明</title>
     <version>V1.0</version>
     <description>
-        学习或回顾时可参考 TestLambda3 类中的案例，思路与案例的选择相较完善。
+        TestLambda1: 相较于jdk1.8之前代码比较与优化
+        TestLambda2: 运用lambda表达式操作的简单案例及接口方法的调用
+        TestLambda3: 基础语法、优化、函数接口lambda调用
+        TestLambda4: jdk提供的四大核心函数接口
+        TestLambda5: lambda方法引用: lambda 表达式引用、构造器引用、方法引用
+        备注：学习或回顾时可参考 TestLambda3 类中的案例，思路与案例的选择相较完善。
     </description>
 </lambda:root>

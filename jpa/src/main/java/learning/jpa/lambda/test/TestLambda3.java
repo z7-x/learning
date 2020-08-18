@@ -124,11 +124,11 @@ public class TestLambda3 {
      */
     @Test
     public void testCaseMethod2() {
-        ItemCreatorBlankConstruct itemCreatorBlankConstruct = () -> new Item();
+        ItemCreatorBlankConstruct itemCreatorBlankConstruct = () -> new Item();  //Lambda表达式引用方式
         Item item = itemCreatorBlankConstruct.getItem();
         System.out.println(item);
 
-        ItemCreatorBlankConstruct itemCreatorBlankConstruct1 = Item::new;
+        ItemCreatorBlankConstruct itemCreatorBlankConstruct1 = Item::new;  //构造器的引用方式
         Item item1 = itemCreatorBlankConstruct1.getItem();
         System.out.println(item1);
 

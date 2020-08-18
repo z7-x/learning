@@ -1,6 +1,7 @@
 package learning.jpa.lambda.test;
 
 import learning.jpa.lambda.service.impl.MyFunInterface;
+import learning.jpa.lambda.service.impl.MyFunInterface2;
 import org.junit.Test;
 
 import java.util.Comparator;
@@ -92,6 +93,15 @@ public class TestLambda2 {
 
     @Test
     public void Test8() {
-
+        countValue(1L, 2L, (v1, v2) -> v1 + v2);
+        countValue(1L, 2L, (v1, v2) -> v1 * v2);
     }
+
+    //处理两个long类型计算
+    public void countValue(Long v1, Long v2, MyFunInterface2<Long, Long> myFunInterface2) {
+        System.out.println(myFunInterface2.getValue(v1, v2).toString());
+    }
+
+    //内置常用接口
+
 }

@@ -4,9 +4,7 @@ import learning.jpa.lambda.bean.Employee;
 import learning.jpa.lambda.service.EmployeeByAgeFilter;
 import learning.jpa.lambda.service.impl.MyPredicate;
 import org.junit.Test;
-import org.springframework.util.CollectionUtils;
 
-import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 

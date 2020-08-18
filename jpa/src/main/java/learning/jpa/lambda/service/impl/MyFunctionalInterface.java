@@ -9,5 +9,5 @@ package learning.jpa.lambda.service.impl;
 @FunctionalInterface
 public interface MyFunctionalInterface<T> {
     //函数式接口，里面只能有一个抽象方法
-    public boolean test(T t);
+    boolean test(T t);
 }
