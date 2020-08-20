@@ -2,6 +2,7 @@ package learning.jpa.dao;
 
 import learning.jpa.bean.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -11,5 +12,6 @@ import org.springframework.stereotype.Repository;
  * @Author z7-x
  */
 @Repository
-public interface UserDao extends JpaRepository<User, Long> {
+public interface UserRepository extends JpaRepository<User, Long>, JpaSpecificationExecutor {
+
 }

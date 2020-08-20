@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="service" />
         <module name="shrio" />
         <module name="jpa" />
         <module name="swagger" />
@@ -14,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="java8" target="1.8" />
       <module name="jpa" target="1.8" />
+      <module name="service" target="1.8" />
       <module name="shrio" target="1.8" />
       <module name="swagger" target="1.8" />
     </bytecodeTargetLevel>
@@ -22,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="java8" options="-parameters" />
       <module name="jpa" options="-parameters" />
+      <module name="service" options="-parameters" />
       <module name="shrio" options="-parameters" />
       <module name="swagger" options="-parameters" />
     </option>

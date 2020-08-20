@@ -6,10 +6,7 @@ import io.swagger.annotations.ApiParam;
 import learning.jpa.bean.Role;
 import learning.jpa.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @Classname RoleController
@@ -27,7 +24,8 @@ public class RoleController {
 
     @ApiOperation(value = "新增角色信息", notes = "新增角色信息")
     @RequestMapping(method = RequestMethod.POST, value = "/createRole")
-    public Role createUser(@RequestBody @ApiParam(value = "输入角色对象", required = true) Role role) {
+    public Role createUser(@ApiParam(value = "输入角色对象", required = true)
+                           @RequestBody Role role) {
         return roleService.createRole(role);
     }
 }

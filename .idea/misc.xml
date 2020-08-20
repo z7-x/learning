@@ -8,6 +8,8 @@
       <list>
         <option value="$PROJECT_DIR$/jpa/pom.xml" />
         <option value="$PROJECT_DIR$/java8/pom.xml" />
+        <option value="$PROJECT_DIR$/jpa/src/main/java/learning/service/pom.xml" />
+        <option value="$PROJECT_DIR$/service/pom.xml" />
       </list>
     </option>
   </component>

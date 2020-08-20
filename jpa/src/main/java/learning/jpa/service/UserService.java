@@ -1,10 +1,15 @@
 package learning.jpa.service;
 
 import learning.jpa.bean.User;
-import learning.jpa.dao.UserDao;
+import learning.jpa.dao.UserRepository;
+import learning.jpa.specification.UserSpecification;
 import learning.jpa.utils.MD5Util;
 import org.apache.commons.collections.ListUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
@@ -22,7 +27,9 @@ import java.util.List;
 public class UserService {
 
     @Autowired
-    private UserDao userDao;
+    private UserRepository userRepository;
+    @Autowired
+    private UserSpecification userSpecification;
 
     /**
      * @param
@@ -32,7 +39,7 @@ public class UserService {
      * @Date 2020/8/12 6:22 下午
      */
     public List<User> findUsers() {
-        List<User> users = userDao.findAll();
+        List<User> users = userRepository.findAll();
         if (CollectionUtils.isEmpty(users)) {
             return ListUtils.EMPTY_LIST;
         }
@@ -51,7 +58,7 @@ public class UserService {
             return null;
         }
         user.setPassWord(MD5Util.backMD5(user.getPassWord()));
-        return userDao.save(user);
+        return userRepository.save(user);
     }
 
     /**
@@ -66,7 +73,7 @@ public class UserService {
             return null;
         }
         user.setPassWord(MD5Util.backMD5(user.getPassWord()));
-        return userDao.save(user);
+        return userRepository.save(user);
     }
 
     /**
@@ -80,11 +87,26 @@ public class UserService {
         if (null == userId) {
             return null;
         }
-        User all = userDao.findById(userId).orElse(null);
+        User all = userRepository.findById(userId).orElse(null);
         if (null == all) {
             return false;
         }
-        userDao.delete(all);
+        userRepository.delete(all);
         return true;
     }
+
+    /**
+     * @param user
+     * @Description: 方法 findUsers 的功能描述：TODD 根据 user参数列表 分页 模糊查询
+     * @Return org.springframework.data.jpa.domain.Specification<learning.jpa.bean.User>
+     * @Author z7-x
+     * @Date 2020/8/19 10:20 上午
+     */
+    public Page findUsers(User user, Integer page, Integer size) {
+        Sort sort = Sort.by(Sort.Direction.DESC, "userId");
+        PageRequest pageRequest = PageRequest.of(page, size, sort);
+        Specification userQuery = userSpecification.where(user);
+        return userRepository.findAll(userQuery, pageRequest);
+    }
+
 }

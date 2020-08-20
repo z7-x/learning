@@ -1,9 +1,7 @@
 package learning.jpa.service;
 
 import learning.jpa.bean.Role;
-import learning.jpa.bean.User;
-import learning.jpa.dao.RoleDao;
-import learning.jpa.utils.MD5Util;
+import learning.jpa.dao.RoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,7 +18,7 @@ import javax.transaction.Transactional;
 public class RoleService {
 
     @Autowired
-    private RoleDao roleDao;
+    private RoleRepository roleRepository;
 
     /**
      * @Description: 方法 createRole 的功能描述：新增角色
@@ -33,7 +31,7 @@ public class RoleService {
         if (null == role) {
             return null;
         }
-        return roleDao.save(role);
+        return roleRepository.save(role);
     }
 
 }
