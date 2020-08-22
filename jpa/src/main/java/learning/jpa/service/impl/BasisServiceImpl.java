@@ -1,5 +1,7 @@
 package learning.jpa.service.impl;
 
+import org.springframework.data.domain.Page;
+
 import java.util.List;
 
 /**
@@ -17,7 +19,7 @@ public interface BasisServiceImpl<T> {
     /**
      * 移除操作对象
      */
-    boolean remove(Long id);
+    boolean remove(Number... id);
 
     /**
      * 修改操作对象
@@ -27,10 +29,10 @@ public interface BasisServiceImpl<T> {
     /**
      * 根据id查询
      */
-    T findById(Long id);
+    T findById(Number id);
 
     /**
      * 按照过滤条件筛选操作对象
      */
-    List<T> findAll(T param);
+    Page findAll(T filter, Integer page, Integer size);
 }

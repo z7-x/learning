@@ -105,7 +105,8 @@ public class UserService {
     public Page findUsers(User user, Integer page, Integer size) {
         Sort sort = Sort.by(Sort.Direction.DESC, "userId");
         PageRequest pageRequest = PageRequest.of(page, size, sort);
-        Specification userQuery = userSpecification.where(user);
+        //组装 过滤条件
+        Specification userQuery = userSpecification.condition(user);
         return userRepository.findAll(userQuery, pageRequest);
     }
 

@@ -1,7 +1,7 @@
-package learning.jpa.lambda.test;
+package learning.features.lambda.test;
 
-import learning.jpa.lambda.service.impl.MyFunInterface;
-import learning.jpa.lambda.service.impl.MyFunInterface2;
+import learning.features.lambda.service.impl.MyFunInterface;
+import learning.features.lambda.service.impl.MyFunInterface2;
 import org.junit.Test;
 
 import java.util.Comparator;

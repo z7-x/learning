@@ -18,7 +18,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/user")
-@Api(tags = "基础用户控制", description = "CRUD操作")
+@Api(tags = "用户控制", description = "CRUD操作")
 public class UserController {
 
     @Autowired
@@ -53,10 +53,10 @@ public class UserController {
         return userService.deleteUser(userId);
     }
 
-    @ApiOperation(value = "模糊查询 分页", notes = "模糊查询 分页")
-    @RequestMapping(method = RequestMethod.POST, value = "/where")
-    public Page getUsers(
-            @ApiParam(value = "用户对象", required = true) @RequestBody User user,
+    @ApiOperation(value = "分页查询:根据过滤条件匹配", notes = "分页查询:根据过滤条件匹配")
+    @RequestMapping(method = RequestMethod.POST, value = "/filterQuery")
+    public Page filterQueryUsers(
+            @ApiParam(value = "用户对象", required = false) @RequestBody User user,
             @ApiParam(value = "起始行", required = true) @RequestParam Integer page,
             @ApiParam(value = "每页行数", required = true) @RequestParam Integer size) {
         return userService.findUsers(user, page, size);

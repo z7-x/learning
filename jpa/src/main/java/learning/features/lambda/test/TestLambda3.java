@@ -1,7 +1,7 @@
-package learning.jpa.lambda.test;
+package learning.features.lambda.test;
 
-import learning.jpa.lambda.bean.Item;
-import learning.jpa.lambda.service.impl.*;
+import learning.features.lambda.bean.Item;
+import learning.features.lambda.service.impl.*;
 import org.junit.Test;
 
 import java.util.function.Consumer;

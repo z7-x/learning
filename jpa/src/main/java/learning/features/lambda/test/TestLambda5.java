@@ -1,7 +1,7 @@
-package learning.jpa.lambda.test;
+package learning.features.lambda.test;
 
 import com.google.common.base.Function;
-import learning.jpa.lambda.bean.Employee;
+import learning.features.lambda.bean.Employee;
 import org.junit.Test;
 
 import java.io.PrintStream;
@@ -82,6 +82,7 @@ public class TestLambda5 {
         BiPredicate<String, String> biPredicate = (x, y) -> x.equals(y);
 
         BiPredicate<String, String> biPredicate1 = String::equals;
+        biPredicate1.test("2e","3e");
     }
 
     /**

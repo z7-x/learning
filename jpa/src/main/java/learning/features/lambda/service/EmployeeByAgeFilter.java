@@ -1,7 +1,7 @@
-package learning.jpa.lambda.service;
+package learning.features.lambda.service;
 
-import learning.jpa.lambda.bean.Employee;
-import learning.jpa.lambda.service.impl.MyPredicate;
+import learning.features.lambda.bean.Employee;
+import learning.features.lambda.service.impl.MyPredicate;
 
 /**
  * @Classname EmployeeFilter

@@ -1,4 +1,4 @@
-package learning.jpa.lambda.bean;
+package learning.features.lambda.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,17 +6,21 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @Classname Item
+ * @Classname Employee
  * @Description TODO
- * @Date 2020/8/17 5:20 下午
+ * @Date 2020/8/14 5:02 下午
  * @Author z7-x
  */
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Item {
-    private int id;
+public class Employee {
     private String name;
-    private double price;
+    private Integer age;
+    private double salary;
+
+    public Employee(String name) {
+        this.name = name;
+    }
 }

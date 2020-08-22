@@ -1,4 +1,4 @@
-package learning.jpa.lambda.test;
+package learning.features.lambda.test;
 
 import org.junit.Test;
 

@@ -1,8 +1,8 @@
-package learning.jpa.lambda.test;
+package learning.features.lambda.test;
 
-import learning.jpa.lambda.bean.Employee;
-import learning.jpa.lambda.service.EmployeeByAgeFilter;
-import learning.jpa.lambda.service.impl.MyPredicate;
+import learning.features.lambda.bean.Employee;
+import learning.features.lambda.service.EmployeeByAgeFilter;
+import learning.features.lambda.service.impl.MyPredicate;
 import org.junit.Test;
 
 import java.util.*;

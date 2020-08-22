@@ -1,4 +1,4 @@
-package learning.jpa.lambda.service.impl;
+package learning.features.lambda.service.impl;
 
 /**
  * @Classname MyFunInterface
@@ -7,6 +7,6 @@ package learning.jpa.lambda.service.impl;
  * @Author z7-x
  */
 @FunctionalInterface
-public interface MyFunInterface {
-    String getValue(String param);
+public interface MyFunInterface2<T, R> {
+    R getValue(T t1, T t2);
 }

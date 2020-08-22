@@ -1,4 +1,4 @@
-package learning.jpa.lambda.service.impl;
+package learning.features.lambda.service.impl;
 
 /**
  * @Classname NoReturnMultiParam

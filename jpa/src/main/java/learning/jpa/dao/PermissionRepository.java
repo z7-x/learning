@@ -1,7 +1,11 @@
 package learning.jpa.dao;
 
 import learning.jpa.bean.Permission;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -11,5 +15,6 @@ import org.springframework.stereotype.Repository;
  * @Author z7-x
  */
 @Repository
-public interface PermissionRepository extends JpaRepository<Permission,Long> {
+public interface PermissionRepository extends JpaRepository<Permission, Long>, JpaSpecificationExecutor {
+
 }

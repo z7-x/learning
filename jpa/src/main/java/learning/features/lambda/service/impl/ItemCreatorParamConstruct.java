@@ -1,6 +1,6 @@
-package learning.jpa.lambda.service.impl;
+package learning.features.lambda.service.impl;
 
-import learning.jpa.lambda.bean.Item;
+import learning.features.lambda.bean.Item;
 
 /**
  * @Classname ItemCreatorParamContruct
