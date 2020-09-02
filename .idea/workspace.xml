@@ -27,19 +27,149 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="568d4af5-0de7-4cab-91d3-e6722dc6da59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/annotation/service/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/annotation/service/MyAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/annotation/test/TestAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/service/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/service/SubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/service/impl/MyFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/service/impl/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/test/TestDefaultMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/time/service/DateFormatThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/time/test/TestLocalDateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/time/test/TestSimpleDateFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/time/test/TestZoneDateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/sql-scripts/构建用户数据.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/annotation/service/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/annotation/service/MyAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/annotation/test/TestAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/bean/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/instructions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/EmployeeByAgeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/EmployeeBySalaryFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/ItemCreatorBlankConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/ItemCreatorParamConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/MyFunInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/MyFunInterface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/MyFunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/MyPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/NoReturnMultiParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/NoReturnNoParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/NoReturnOneParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/ReturnMultiParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/ReturnNoParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/ReturnOneParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/test/TestLambda1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/test/TestLambda2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/test/TestLambda3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/test/TestLambda4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/test/TestLambda5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/service/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/service/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/service/impl/MyFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/service/impl/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/test/TestDefaultMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/test/TestOptional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/stream/test/TestStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/time/service/DateFormatThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/time/test/TestLocalDateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/time/test/TestSimpleDateFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/time/test/TestZoneDateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/JpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/bean/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/bean/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/bean/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/bean/basis/BaseBusEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/controller/AnalysisXMLController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/dao/PermissionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/dao/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/PermissionServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/XMLDocumentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/impl/BasisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/specification/PermissionSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/specification/UserSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/utils/DOM4XMLUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestThreadMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/resources/templates/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/test/java/learning/jpa/utils/MD5UtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/sql-scripts/构建用户数据.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/annotation/service/MyAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/annotation/service/MyAnnotations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/annotation/test/TestAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/bean/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/bean/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/instructions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/EmployeeByAgeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/EmployeeBySalaryFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/ItemCreatorBlankConstruct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/ItemCreatorParamConstruct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/MyFunInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/MyFunInterface2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/MyFunctionalInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/MyPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/NoReturnMultiParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/NoReturnNoParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/NoReturnOneParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/ReturnMultiParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/ReturnNoParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/ReturnOneParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/test/TestLambda1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/test/TestLambda2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/test/TestLambda3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/test/TestLambda4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/test/TestLambda5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/service/MyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/service/SubClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/service/impl/MyFun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/service/impl/MyInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/test/TestDefaultMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/test/TestOptional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/stream/test/TestStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/time/service/DateFormatThreadLocal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/time/test/TestLocalDateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/time/test/TestSimpleDateFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/features/time/test/TestZoneDateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/JpaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/Permission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/basis/BaseBusEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/AnalysisXMLController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/PermissionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/dao/PermissionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/dao/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/dao/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/PermissionServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/XMLDocumentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/impl/BasisServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/specification/PermissionSpecification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/specification/UserSpecification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/utils/DOM4XMLUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/utils/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/main/resources/templates/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa/src/test/java/learning/jpa/utils/MD5UtilTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +207,7 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
     <option name="SCOPE" value="All" />
   </component>
   <component name="MavenImportPreferences">
@@ -119,12 +250,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3873563" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.springboot.service.impl" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="learning.jpa.utils" />
       <recent name="com.example.springboot.service.impl" />
@@ -142,13 +276,6 @@
       <recent name="learning.jpa.service" />
       <recent name="learning.jpa" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jpa/src/main" />
-      <recent name="$PROJECT_DIR$/service/src/main/resources" />
-      <recent name="$PROJECT_DIR$/service/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/jpa/src/main/java" />
-      <recent name="$PROJECT_DIR$/jpa/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/jpa/src/main/java/learning/features/stream" />
       <recent name="$PROJECT_DIR$/jpa/src/main/java" />
@@ -163,93 +290,132 @@
       <recent name="learning.jpa.java8.service" />
       <recent name="learning.swagger.config" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.springboot.service.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jpa/src/main" />
+      <recent name="$PROJECT_DIR$/service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/service/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/jpa/src/main/java" />
+      <recent name="$PROJECT_DIR$/jpa/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAnnotation.test">
-    <configuration name="TestAnnotation.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa" />
+  <component name="RunManager" selected="Application.TestThreads">
+    <configuration name="TestRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.multithreading.service.TestRunnable" />
+      <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.features.annotation.test.*" />
+          <option name="PATTERN" value="learning.multithreading.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="learning.features.annotation.test" />
-      <option name="MAIN_CLASS_NAME" value="learning.features.annotation.test.TestAnnotation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.multithreading.service.TestThread" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.multithreading.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.multithreading.service.TestThreads" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.multithreading.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.multithreading.service.Thread" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.multithreading.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThread.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.multithreading.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learning.multithreading.service" />
+      <option name="MAIN_CLASS_NAME" value="learning.multithreading.service.TestThread" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLocalDateTime.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.features.time.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learning.features.time.test" />
-      <option name="MAIN_CLASS_NAME" value="learning.features.time.test.TestLocalDateTime" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="practice" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLocalDateTime.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.features.time.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learning.features.time.test" />
-      <option name="MAIN_CLASS_NAME" value="learning.features.time.test.TestLocalDateTime" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLocalDateTime.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.features.time.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learning.features.time.test" />
-      <option name="MAIN_CLASS_NAME" value="learning.features.time.test.TestLocalDateTime" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestZoneDateTime.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.features.time.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learning.features.time.test" />
-      <option name="MAIN_CLASS_NAME" value="learning.features.time.test.TestZoneDateTime" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="practice" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="JpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="jpa" />
+      <module name="practice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="learning.jpa.JpaApplication" />
       <option name="ACTIVE_PROFILES" value="dev" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -288,23 +454,23 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Thread" />
+      <item itemvalue="Application.TestThread" />
+      <item itemvalue="Application.TestRunnable" />
+      <item itemvalue="Application.TestThreads" />
       <item itemvalue="Docker.PackProject" />
-      <item itemvalue="JUnit.TestLocalDateTime.test4" />
-      <item itemvalue="JUnit.TestLocalDateTime.test5" />
-      <item itemvalue="JUnit.TestLocalDateTime.test6" />
-      <item itemvalue="JUnit.TestZoneDateTime.test1" />
-      <item itemvalue="JUnit.TestAnnotation.test" />
+      <item itemvalue="JUnit.TestThread.test" />
       <item itemvalue="Spring Boot.JpaApplication" />
       <item itemvalue="Spring Boot.SourceApplication" />
       <item itemvalue="Spring Boot.SourcesApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAnnotation.test" />
-        <item itemvalue="JUnit.TestZoneDateTime.test1" />
-        <item itemvalue="JUnit.TestLocalDateTime.test6" />
-        <item itemvalue="JUnit.TestLocalDateTime.test5" />
-        <item itemvalue="JUnit.TestLocalDateTime.test4" />
+        <item itemvalue="Application.TestThreads" />
+        <item itemvalue="Application.TestThread" />
+        <item itemvalue="Application.TestRunnable" />
+        <item itemvalue="JUnit.TestThread.test" />
+        <item itemvalue="Application.Thread" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +638,21 @@
       <workItem from="1598420518048" duration="2372000" />
       <workItem from="1598491310324" duration="7880000" />
       <workItem from="1598503759682" duration="9192000" />
-      <workItem from="1598579138398" duration="1485000" />
+      <workItem from="1598579138398" duration="8694000" />
+      <workItem from="1598606563380" duration="1887000" />
+      <workItem from="1598658502871" duration="71000" />
+      <workItem from="1598679620570" duration="478000" />
+      <workItem from="1598763910106" duration="119000" />
+      <workItem from="1598773262278" duration="139000" />
+      <workItem from="1598783687854" duration="92000" />
+      <workItem from="1598835274762" duration="2834000" />
+      <workItem from="1598852162180" duration="7578000" />
+      <workItem from="1598923650794" duration="3703000" />
+      <workItem from="1598930125865" duration="242000" />
+      <workItem from="1598933022323" duration="115000" />
+      <workItem from="1598937407396" duration="748000" />
+      <workItem from="1598939874284" duration="2844000" />
+      <workItem from="1599008792193" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="springboot+jpa">
       <created>1573534671543</created>
@@ -607,7 +787,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598403359869</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="新建annotation目录 自定义注解与注解类型">
+      <created>1598582297753</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1598582297753</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +849,8 @@
     <MESSAGE value="jpa 分页、命名/分层规范、自定义范型" />
     <MESSAGE value="新建stream目录 修改权限代码为函数式接口" />
     <MESSAGE value="新建optional目录 学习java8 Optional类引入  防止空指针异常" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建optional目录 学习java8 Optional类引入  防止空指针异常" />
+    <MESSAGE value="新建annotation目录 自定义注解与注解类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="新建annotation目录 自定义注解与注解类型" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -674,10 +862,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="474" y="210" key="#Inspections/0.0.1680.1050@0.0.1680.1050" timestamp="1598323673230" />
-    <state x="328" y="106" key="#Project_Structure" timestamp="1597804840615">
+    <state x="328" y="106" key="#Project_Structure" timestamp="1598594128422">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1597804840615" />
+    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1598594128422" />
     <state x="577" y="349" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1597216406773">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -694,10 +882,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="478" y="269" key="#com.intellij.ide.util.ExportDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597895895033" />
-    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1598409403377">
+    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1598927433542">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1598409403377" />
+    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1598927433542" />
     <state x="577" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597129099430">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -726,10 +914,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="831" y="171" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1598348639521" />
-    <state x="354" y="117" key="CommitChangelistDialog2" timestamp="1598403359625">
+    <state x="354" y="117" key="CommitChangelistDialog2" timestamp="1598582297535">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="354" y="117" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1598403359625" />
+    <state x="354" y="117" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1598582297535" />
     <state width="418" height="466" key="DebuggerActiveHint" timestamp="1597971841463">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -743,77 +931,77 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="700" y="429" width="279" height="280" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597116645114" />
-    <state width="1638" height="355" key="GridCell.Tab.0.bottom" timestamp="1598582129951">
+    <state width="1638" height="368" key="GridCell.Tab.0.bottom" timestamp="1598929568872">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598582129951" />
+    <state width="1638" height="368" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598929568872" />
     <state width="1638" height="299" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433604" />
-    <state width="1638" height="368" key="GridCell.Tab.0.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1598497144514" />
-    <state width="1638" height="355" key="GridCell.Tab.0.center" timestamp="1598582129950">
+    <state width="1638" height="355" key="GridCell.Tab.0.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911309" />
+    <state width="1638" height="368" key="GridCell.Tab.0.center" timestamp="1598929568871">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598582129950" />
+    <state width="1638" height="368" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598929568871" />
     <state width="1638" height="299" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433602" />
-    <state width="1638" height="368" key="GridCell.Tab.0.center/45.23.1635.1027@45.23.1635.1027" timestamp="1598497144513" />
-    <state width="1638" height="355" key="GridCell.Tab.0.left" timestamp="1598582129949">
+    <state width="1638" height="355" key="GridCell.Tab.0.center/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911305" />
+    <state width="1638" height="368" key="GridCell.Tab.0.left" timestamp="1598929568871">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598582129949" />
+    <state width="1638" height="368" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598929568871" />
     <state width="1638" height="225" key="GridCell.Tab.0.left/0.0.1680.1050@45.23.1635.1027" timestamp="1597288747577" />
     <state width="1638" height="299" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433601" />
-    <state width="1638" height="368" key="GridCell.Tab.0.left/45.23.1635.1027@45.23.1635.1027" timestamp="1598497144512" />
-    <state width="1638" height="355" key="GridCell.Tab.0.right" timestamp="1598582129951">
+    <state width="1638" height="355" key="GridCell.Tab.0.left/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911304" />
+    <state width="1638" height="368" key="GridCell.Tab.0.right" timestamp="1598929568872">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598582129951" />
+    <state width="1638" height="368" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598929568872" />
     <state width="1638" height="299" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433603" />
-    <state width="1638" height="368" key="GridCell.Tab.0.right/45.23.1635.1027@45.23.1635.1027" timestamp="1598497144513" />
-    <state width="1638" height="355" key="GridCell.Tab.1.bottom" timestamp="1598582129954">
+    <state width="1638" height="355" key="GridCell.Tab.0.right/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911306" />
+    <state width="1638" height="355" key="GridCell.Tab.1.bottom" timestamp="1598871666621">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598582129954" />
+    <state width="1638" height="355" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598871666621" />
     <state width="1638" height="299" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433483" />
-    <state width="1638" height="355" key="GridCell.Tab.1.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1598348283465" />
-    <state width="1638" height="355" key="GridCell.Tab.1.center" timestamp="1598582129952">
+    <state width="1638" height="355" key="GridCell.Tab.1.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911545" />
+    <state width="1638" height="355" key="GridCell.Tab.1.center" timestamp="1598871666620">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598582129952" />
+    <state width="1638" height="355" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598871666620" />
     <state width="1638" height="299" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433482" />
-    <state width="1638" height="355" key="GridCell.Tab.1.center/45.23.1635.1027@45.23.1635.1027" timestamp="1598348283464" />
-    <state width="1638" height="355" key="GridCell.Tab.1.left" timestamp="1598582129952">
+    <state width="1638" height="355" key="GridCell.Tab.1.center/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911544" />
+    <state width="1638" height="355" key="GridCell.Tab.1.left" timestamp="1598871666620">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598582129952" />
+    <state width="1638" height="355" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598871666620" />
     <state width="1638" height="299" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433481" />
-    <state width="1638" height="355" key="GridCell.Tab.1.left/45.23.1635.1027@45.23.1635.1027" timestamp="1598348283463" />
-    <state width="1638" height="355" key="GridCell.Tab.1.right" timestamp="1598582129953">
+    <state width="1638" height="355" key="GridCell.Tab.1.left/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911543" />
+    <state width="1638" height="355" key="GridCell.Tab.1.right" timestamp="1598871666621">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598582129953" />
+    <state width="1638" height="355" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598871666621" />
     <state width="1638" height="299" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433483" />
-    <state width="1638" height="355" key="GridCell.Tab.1.right/45.23.1635.1027@45.23.1635.1027" timestamp="1598348283465" />
-    <state width="1638" height="355" key="GridCell.Tab.2.bottom" timestamp="1598341354628">
+    <state width="1638" height="355" key="GridCell.Tab.1.right/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911545" />
+    <state width="1638" height="355" key="GridCell.Tab.2.bottom" timestamp="1598604889072">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598341354628" />
+    <state width="1638" height="355" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598604889072" />
     <state width="1638" height="299" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433486" />
     <state width="1638" height="355" key="GridCell.Tab.2.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1597981043714" />
-    <state width="1638" height="355" key="GridCell.Tab.2.center" timestamp="1598341354626">
+    <state width="1638" height="355" key="GridCell.Tab.2.center" timestamp="1598604889071">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598341354626" />
+    <state width="1638" height="355" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598604889071" />
     <state width="1638" height="299" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433485" />
     <state width="1638" height="355" key="GridCell.Tab.2.center/45.23.1635.1027@45.23.1635.1027" timestamp="1597981043712" />
-    <state width="1638" height="355" key="GridCell.Tab.2.left" timestamp="1598341354626">
+    <state width="1638" height="355" key="GridCell.Tab.2.left" timestamp="1598604889070">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598341354626" />
+    <state width="1638" height="355" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598604889070" />
     <state width="1638" height="299" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433484" />
     <state width="1638" height="355" key="GridCell.Tab.2.left/45.23.1635.1027@45.23.1635.1027" timestamp="1597981043712" />
-    <state width="1638" height="355" key="GridCell.Tab.2.right" timestamp="1598341354627">
+    <state width="1638" height="355" key="GridCell.Tab.2.right" timestamp="1598604889071">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598341354627" />
+    <state width="1638" height="355" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598604889071" />
     <state width="1638" height="299" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433485" />
     <state width="1638" height="355" key="GridCell.Tab.2.right/45.23.1635.1027@45.23.1635.1027" timestamp="1597981043713" />
     <state x="723" y="398" width="429" height="253" key="MultipleFileMergeDialog" timestamp="1597134416353">
@@ -833,10 +1021,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="542" y="236" key="VCS.ChangeListViewerDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597127866000" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1598403365792">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1598582308565">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1598403365792" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1598582308565" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1597651830906">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -849,14 +1037,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="631" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1597804906717" />
-    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597567810590">
+    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598853796575">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597567810590" />
-    <state x="540" y="282" width="865" height="486" key="find.popup" timestamp="1598234856751">
+    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1598853796575" />
+    <state x="540" y="282" width="865" height="486" key="find.popup" timestamp="1598853394189">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="540" y="282" width="865" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598234856751" />
+    <state x="540" y="282" width="865" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598853394189" />
     <state x="654" y="250" key="git4idea.branch.GitBranchIsNotFullyMergedDialog" timestamp="1597127435427">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

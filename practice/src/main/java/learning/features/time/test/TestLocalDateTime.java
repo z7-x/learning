@@ -1,12 +1,9 @@
 package learning.features.time.test;
 
-import io.swagger.models.auth.In;
-import org.apache.tomcat.jni.Local;
 import org.junit.Test;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;
-import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
 
 /**
