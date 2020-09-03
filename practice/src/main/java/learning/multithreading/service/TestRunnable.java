@@ -13,6 +13,7 @@ public class TestRunnable implements Runnable {
             System.out.println("good time");
         }
     }
+
     public static void main(String[] args) {
         TestRunnable testRunnable = new TestRunnable();
         new Thread(testRunnable).start();
