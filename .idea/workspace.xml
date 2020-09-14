@@ -26,11 +26,27 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="568d4af5-0de7-4cab-91d3-e6722dc6da59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestWindows2.java" afterDir="false" />
+    <list default="true" id="568d4af5-0de7-4cab-91d3-e6722dc6da59" name="Default Changelist" comment="多线程卖票案例">
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/communication/TestCommunication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/communication/TestProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsA/TestExtendsThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsA/TestImpRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsB/TestSynExtendsThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsB/TestSynMethodRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsC/TestLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/TestAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/TestBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/TestDieLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/newcreate/TestCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/newcreate/TestCallables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestThreadMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestThreadMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestWindows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestWindows2.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestWindows2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +83,9 @@
     <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="5fa743e8-718b-4330-8681-66a1f05dafc2" />
+  </component>
   <component name="HierarchyBrowserManager">
     <option name="SORT_ALPHABETICALLY" value="true" />
     <option name="SCOPE" value="All" />
@@ -102,7 +121,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/com/example/springbootfreemarker" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jpa/src/main/java/learning/features/stream" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lifecycle" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -114,12 +133,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3873563" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.springboot.service.impl" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="learning.jpa.utils" />
       <recent name="com.example.springboot.service.impl" />
@@ -137,20 +153,6 @@
       <recent name="learning.jpa.service" />
       <recent name="learning.jpa" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jpa/src/main/java/learning/features/stream" />
-      <recent name="$PROJECT_DIR$/jpa/src/main/java" />
-      <recent name="$PROJECT_DIR$/service" />
-      <recent name="$PROJECT_DIR$/service/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/lambda" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="learning.features.annotation.service" />
-      <recent name="learning.jpa.specification" />
-      <recent name="learning.jpa.utils" />
-      <recent name="learning.jpa.java8.service" />
-      <recent name="learning.swagger.config" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/jpa/src/main" />
       <recent name="$PROJECT_DIR$/service/src/main/resources" />
@@ -158,14 +160,31 @@
       <recent name="$PROJECT_DIR$/jpa/src/main/java" />
       <recent name="$PROJECT_DIR$/jpa/src" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lifecycle" />
+      <recent name="$PROJECT_DIR$/jpa/src/main/java/learning/features/stream" />
+      <recent name="$PROJECT_DIR$/jpa/src/main/java" />
+      <recent name="$PROJECT_DIR$/service" />
+      <recent name="$PROJECT_DIR$/service/src/main/resources/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learning.multithreading.suo" />
+      <recent name="learning.features.annotation.service" />
+      <recent name="learning.jpa.specification" />
+      <recent name="learning.jpa.utils" />
+      <recent name="learning.jpa.java8.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.springboot.service.impl" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TestWindows2">
-    <configuration name="TestRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.multithreading.service.TestRunnable" />
+  <component name="RunManager" selected="Application.TestCommunication">
+    <configuration name="TestAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.multithreading.lock.TestAccount" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.multithreading.service.*" />
+          <option name="PATTERN" value="learning.multithreading.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.multithreading.service.TestThread" />
+    <configuration name="TestCommunication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.multithreading.communication.TestCommunication" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.multithreading.service.*" />
+          <option name="PATTERN" value="learning.multithreading.communication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.multithreading.service.TestThreads" />
+    <configuration name="TestDieLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.multithreading.lock.TestDieLock" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.multithreading.service.*" />
+          <option name="PATTERN" value="learning.multithreading.lock.MethodsA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWindows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.multithreading.service.TestWindows" />
+    <configuration name="TestLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.multithreading.lock.MethodsC.TestLock" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.multithreading.service.*" />
+          <option name="PATTERN" value="learning.multithreading.lock.MethodsC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,12 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWindows2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.multithreading.service.TestWindows2" />
+    <configuration name="TestSynMethodRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.multithreading.lock.MethodsB.TestSynMethodRunnable" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.multithreading.service.*" />
+          <option name="PATTERN" value="learning.multithreading.lock.MethodsA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,23 +331,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TestThread" />
-      <item itemvalue="Application.TestRunnable" />
-      <item itemvalue="Application.TestThreads" />
-      <item itemvalue="Application.TestWindows" />
+      <item itemvalue="Application.TestSynMethodRunnable" />
+      <item itemvalue="Application.TestDieLock" />
+      <item itemvalue="Application.TestLock" />
+      <item itemvalue="Application.TestAccount" />
+      <item itemvalue="Application.TestCommunication" />
       <item itemvalue="Docker.PackProject" />
       <item itemvalue="Spring Boot.JpaApplication" />
       <item itemvalue="Spring Boot.SourceApplication" />
       <item itemvalue="Spring Boot.SourcesApplication" />
-      <item itemvalue="Application.TestWindows2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestWindows2" />
-        <item itemvalue="Application.TestWindows" />
-        <item itemvalue="Application.TestThreads" />
-        <item itemvalue="Application.TestThread" />
-        <item itemvalue="Application.TestRunnable" />
+        <item itemvalue="Application.TestCommunication" />
+        <item itemvalue="Application.TestAccount" />
+        <item itemvalue="Application.TestLock" />
+        <item itemvalue="Application.TestDieLock" />
+        <item itemvalue="Application.TestSynMethodRunnable" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +532,13 @@
       <workItem from="1599008792193" duration="90000" />
       <workItem from="1599010360361" duration="657000" />
       <workItem from="1599021908625" duration="2795000" />
-      <workItem from="1599034495349" duration="3922000" />
+      <workItem from="1599034495349" duration="4573000" />
+      <workItem from="1599099806400" duration="1152000" />
+      <workItem from="1599109656022" duration="4585000" />
+      <workItem from="1599183516823" duration="1591000" />
+      <workItem from="1599195510566" duration="2789000" />
+      <workItem from="1599203701023" duration="143000" />
+      <workItem from="1599206594627" duration="40289000" />
     </task>
     <task id="LOCAL-00001" summary="springboot+jpa">
       <created>1573534671543</created>
@@ -662,7 +687,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599010471099</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="多线程卖票案例">
+      <created>1599095566407</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1599095566407</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,7 +751,8 @@
     <MESSAGE value="新建optional目录 学习java8 Optional类引入  防止空指针异常" />
     <MESSAGE value="新建annotation目录 自定义注解与注解类型" />
     <MESSAGE value="java timeApi 与 多线程测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="java timeApi 与 多线程测试" />
+    <MESSAGE value="多线程卖票案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程卖票案例" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -751,10 +784,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="478" y="269" key="#com.intellij.ide.util.ExportDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597895895033" />
-    <state x="653" y="241" width="374" height="493" key="#com.intellij.ide.util.MemberChooser" timestamp="1599037971378">
+    <state x="653" y="241" width="374" height="493" key="#com.intellij.ide.util.MemberChooser" timestamp="1599700326387">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="241" width="374" height="493" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1599037971378" />
+    <state x="653" y="241" width="374" height="493" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1599700326387" />
     <state x="577" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597129099430">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -779,14 +812,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597982269846" />
-    <state x="831" y="171" key="#xdebugger.evaluate" timestamp="1598348639521">
+    <state x="831" y="171" key="#xdebugger.evaluate" timestamp="1599536816288">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="831" y="171" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1598348639521" />
-    <state x="354" y="117" key="CommitChangelistDialog2" timestamp="1599010470540">
+    <state x="831" y="171" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1599536816288" />
+    <state x="354" y="117" key="CommitChangelistDialog2" timestamp="1599185902684">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="354" y="117" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1599010470540" />
+    <state x="354" y="117" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1599185902684" />
     <state width="418" height="466" key="DebuggerActiveHint" timestamp="1597971841463">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -800,55 +833,55 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="700" y="429" width="279" height="280" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597116645114" />
-    <state width="1638" height="368" key="GridCell.Tab.0.bottom" timestamp="1599041762819">
+    <state width="1638" height="368" key="GridCell.Tab.0.bottom" timestamp="1599727352166">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="368" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1599041762819" />
+    <state width="1638" height="368" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352166" />
     <state width="1638" height="299" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433604" />
-    <state width="1638" height="355" key="GridCell.Tab.0.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911309" />
-    <state width="1638" height="368" key="GridCell.Tab.0.center" timestamp="1599041762818">
+    <state width="1638" height="355" key="GridCell.Tab.0.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212485" />
+    <state width="1638" height="368" key="GridCell.Tab.0.center" timestamp="1599727352165">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="368" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1599041762818" />
+    <state width="1638" height="368" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352165" />
     <state width="1638" height="299" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433602" />
-    <state width="1638" height="355" key="GridCell.Tab.0.center/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911305" />
-    <state width="1638" height="368" key="GridCell.Tab.0.left" timestamp="1599041762816">
+    <state width="1638" height="355" key="GridCell.Tab.0.center/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212483" />
+    <state width="1638" height="368" key="GridCell.Tab.0.left" timestamp="1599727352164">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="368" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1599041762816" />
+    <state width="1638" height="368" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352164" />
     <state width="1638" height="225" key="GridCell.Tab.0.left/0.0.1680.1050@45.23.1635.1027" timestamp="1597288747577" />
     <state width="1638" height="299" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433601" />
-    <state width="1638" height="355" key="GridCell.Tab.0.left/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911304" />
-    <state width="1638" height="368" key="GridCell.Tab.0.right" timestamp="1599041762818">
+    <state width="1638" height="355" key="GridCell.Tab.0.left/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212482" />
+    <state width="1638" height="368" key="GridCell.Tab.0.right" timestamp="1599727352165">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="368" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599041762818" />
+    <state width="1638" height="368" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352165" />
     <state width="1638" height="299" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433603" />
-    <state width="1638" height="355" key="GridCell.Tab.0.right/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911306" />
-    <state width="1638" height="355" key="GridCell.Tab.1.bottom" timestamp="1599032659576">
+    <state width="1638" height="355" key="GridCell.Tab.0.right/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212484" />
+    <state width="1638" height="355" key="GridCell.Tab.1.bottom" timestamp="1599727352161">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1599032659576" />
+    <state width="1638" height="355" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352161" />
     <state width="1638" height="299" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433483" />
-    <state width="1638" height="355" key="GridCell.Tab.1.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911545" />
-    <state width="1638" height="355" key="GridCell.Tab.1.center" timestamp="1599032659574">
+    <state width="1638" height="355" key="GridCell.Tab.1.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212491" />
+    <state width="1638" height="355" key="GridCell.Tab.1.center" timestamp="1599727352160">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1599032659574" />
+    <state width="1638" height="355" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352160" />
     <state width="1638" height="299" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433482" />
-    <state width="1638" height="355" key="GridCell.Tab.1.center/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911544" />
-    <state width="1638" height="355" key="GridCell.Tab.1.left" timestamp="1599032659573">
+    <state width="1638" height="355" key="GridCell.Tab.1.center/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212487" />
+    <state width="1638" height="355" key="GridCell.Tab.1.left" timestamp="1599727352159">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1599032659573" />
+    <state width="1638" height="355" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352159" />
     <state width="1638" height="299" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433481" />
-    <state width="1638" height="355" key="GridCell.Tab.1.left/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911543" />
-    <state width="1638" height="355" key="GridCell.Tab.1.right" timestamp="1599032659575">
+    <state width="1638" height="355" key="GridCell.Tab.1.left/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212486" />
+    <state width="1638" height="355" key="GridCell.Tab.1.right" timestamp="1599727352160">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599032659575" />
+    <state width="1638" height="355" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352160" />
     <state width="1638" height="299" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433483" />
-    <state width="1638" height="355" key="GridCell.Tab.1.right/45.23.1635.1027@45.23.1635.1027" timestamp="1598860911545" />
+    <state width="1638" height="355" key="GridCell.Tab.1.right/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212487" />
     <state width="1638" height="355" key="GridCell.Tab.2.bottom" timestamp="1598604889072">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -877,10 +910,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="723" y="398" width="429" height="253" key="MultipleFileMergeDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597134416353" />
-    <state x="349" y="164" key="SettingsEditor" timestamp="1597895855290">
+    <state x="349" y="164" key="SettingsEditor" timestamp="1599185894354">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1597895855290" />
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1599185894354" />
     <state x="153" y="247" key="SettingsEditor/45.23.1635.1027@45.23.1635.1027" timestamp="1597634151625" />
     <state width="500" height="507" key="SwitcherDM" timestamp="1597891725247">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -890,10 +923,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="542" y="236" key="VCS.ChangeListViewerDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597127866000" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1599010475920">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1599095572411">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1599010475920" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1599095572411" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1597651830906">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -910,10 +943,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1598853796575" />
-    <state x="540" y="282" width="865" height="486" key="find.popup" timestamp="1598853394189">
+    <state x="540" y="282" width="865" height="486" key="find.popup" timestamp="1599102573560">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="540" y="282" width="865" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598853394189" />
+    <state x="540" y="282" width="865" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599102573560" />
     <state x="654" y="250" key="git4idea.branch.GitBranchIsNotFullyMergedDialog" timestamp="1597127435427">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -938,10 +971,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="640" y="391" key="scopes/0.0.1680.1050@0.0.1680.1050" timestamp="1597830419917" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1599030564887">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1599539789505">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599030564887" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599539789505" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

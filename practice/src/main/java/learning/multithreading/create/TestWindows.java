@@ -1,6 +1,4 @@
-package learning.multithreading.service;
-
-import java.util.concurrent.FutureTask;
+package learning.multithreading.create;
 
 /**
  * @Classname TestWindows
@@ -11,6 +9,8 @@ import java.util.concurrent.FutureTask;
 public class TestWindows {
     /**
      * 需求：创建三个窗口卖票，总票数为100张
+     *
+     *
      */
     public static void main(String[] args) {
         ExThread thread1 = new ExThread();

@@ -1,4 +1,4 @@
-package learning.multithreading.service;
+package learning.multithreading.create;
 
 /**
  * @Classname Thread

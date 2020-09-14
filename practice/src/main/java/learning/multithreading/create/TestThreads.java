@@ -1,6 +1,4 @@
-package learning.multithreading.service;
-
-import learning.features.time.test.TestLocalDateTime;
+package learning.multithreading.create;
 
 /**
  * @Classname TestThreads

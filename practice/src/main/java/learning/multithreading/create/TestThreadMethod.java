@@ -1,6 +1,4 @@
-package learning.multithreading.service;
-
-import com.fasterxml.jackson.databind.util.JSONPObject;
+package learning.multithreading.create;
 
 /**
  * @Classname TestThreadMethod
