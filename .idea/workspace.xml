@@ -26,27 +26,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="568d4af5-0de7-4cab-91d3-e6722dc6da59" name="Default Changelist" comment="多线程卖票案例">
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/communication/TestCommunication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/communication/TestProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsA/TestExtendsThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsA/TestImpRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsB/TestSynExtendsThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsB/TestSynMethodRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsC/TestLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/TestAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/TestBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/TestDieLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/newcreate/TestCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/newcreate/TestCallables.java" afterDir="false" />
+    <list default="true" id="568d4af5-0de7-4cab-91d3-e6722dc6da59" name="Default Changelist" comment="jdk5.0扩展后的新特性 创建多线程方式">
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/WeChatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/impl/SendMessageImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/newcreate/TestExecutors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestThreadMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestThreadMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestThreads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestWindows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/service/TestWindows2.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestWindows2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/test/TestOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/test/TestOptional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/newcreate/TestCallables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,13 +87,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1YYRKrpsmj7SFnpQ3ZR9SVhKs7h" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
@@ -130,7 +122,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3873563" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -178,7 +170,7 @@
       <recent name="com.example.springboot.service.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCommunication">
+  <component name="RunManager" selected="Spring Boot.JpaApplication">
     <configuration name="TestAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.multithreading.lock.TestAccount" />
       <module name="practice" />
@@ -205,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDieLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.multithreading.lock.TestDieLock" />
+    <configuration name="TestExecutors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.multithreading.newcreate.TestExecutors" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.multithreading.lock.MethodsA.*" />
+          <option name="PATTERN" value="learning.multithreading.newcreate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,15 +223,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSynMethodRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.multithreading.lock.MethodsB.TestSynMethodRunnable" />
+    <configuration name="TestOptional.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.multithreading.lock.MethodsA.*" />
+          <option name="PATTERN" value="learning.features.optional.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="learning.features.optional.test" />
+      <option name="MAIN_CLASS_NAME" value="learning.features.optional.test.TestOptional" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -298,6 +293,18 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="WECHAT_SEND" />
+          <option name="value" value="0707" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="DINGDING_SEND" />
+          <option name="value" value="0808" />
+        </param>
+      </additionalParameters>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -331,23 +338,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TestSynMethodRunnable" />
-      <item itemvalue="Application.TestDieLock" />
       <item itemvalue="Application.TestLock" />
       <item itemvalue="Application.TestAccount" />
       <item itemvalue="Application.TestCommunication" />
+      <item itemvalue="Application.TestExecutors" />
       <item itemvalue="Docker.PackProject" />
+      <item itemvalue="JUnit.TestOptional.test4" />
       <item itemvalue="Spring Boot.JpaApplication" />
       <item itemvalue="Spring Boot.SourceApplication" />
       <item itemvalue="Spring Boot.SourcesApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestExecutors" />
+        <item itemvalue="JUnit.TestOptional.test4" />
         <item itemvalue="Application.TestCommunication" />
         <item itemvalue="Application.TestAccount" />
         <item itemvalue="Application.TestLock" />
-        <item itemvalue="Application.TestDieLock" />
-        <item itemvalue="Application.TestSynMethodRunnable" />
       </list>
     </recent_temporary>
   </component>
@@ -539,6 +546,20 @@
       <workItem from="1599195510566" duration="2789000" />
       <workItem from="1599203701023" duration="143000" />
       <workItem from="1599206594627" duration="40289000" />
+      <workItem from="1600077055772" duration="656000" />
+      <workItem from="1600090448187" duration="788000" />
+      <workItem from="1600137041332" duration="451000" />
+      <workItem from="1600656558772" duration="273000" />
+      <workItem from="1600823462564" duration="437000" />
+      <workItem from="1600843603372" duration="329000" />
+      <workItem from="1600848904673" duration="209000" />
+      <workItem from="1601431028138" duration="1082000" />
+      <workItem from="1601437194121" duration="598000" />
+      <workItem from="1601444082443" duration="695000" />
+      <workItem from="1602207485963" duration="6030000" />
+      <workItem from="1602220742710" duration="6983000" />
+      <workItem from="1602406957379" duration="141000" />
+      <workItem from="1602466258423" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="springboot+jpa">
       <created>1573534671543</created>
@@ -694,7 +715,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599095566407</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="jdk5.0扩展后的新特性 创建多线程方式">
+      <created>1600077109669</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1600077109669</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,6 +763,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="springboot+jpa" />
     <MESSAGE value="数据导入" />
     <MESSAGE value="数据导入「 springBoot + jpa 」" />
@@ -752,7 +781,8 @@
     <MESSAGE value="新建annotation目录 自定义注解与注解类型" />
     <MESSAGE value="java timeApi 与 多线程测试" />
     <MESSAGE value="多线程卖票案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程卖票案例" />
+    <MESSAGE value="jdk5.0扩展后的新特性 创建多线程方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdk5.0扩展后的新特性 创建多线程方式" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -772,10 +802,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="577" y="349" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597216406773" />
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597804814526">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602224017914">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597804814526" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602224017914" />
     <state x="559" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597630481489">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -784,10 +814,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="478" y="269" key="#com.intellij.ide.util.ExportDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597895895033" />
-    <state x="653" y="241" width="374" height="493" key="#com.intellij.ide.util.MemberChooser" timestamp="1599700326387">
+    <state x="653" y="241" width="374" height="493" key="#com.intellij.ide.util.MemberChooser" timestamp="1602222131291">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="241" width="374" height="493" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1599700326387" />
+    <state x="653" y="241" width="374" height="493" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1602222131291" />
     <state x="577" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597129099430">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -816,10 +846,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="831" y="171" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1599536816288" />
-    <state x="354" y="117" key="CommitChangelistDialog2" timestamp="1599185902684">
+    <state x="354" y="117" key="CommitChangelistDialog2" timestamp="1600656695372">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="354" y="117" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1599185902684" />
+    <state x="354" y="117" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1600656695372" />
     <state width="418" height="466" key="DebuggerActiveHint" timestamp="1597971841463">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -833,87 +863,100 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="700" y="429" width="279" height="280" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597116645114" />
-    <state width="1638" height="368" key="GridCell.Tab.0.bottom" timestamp="1599727352166">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="225" key="GridCell.Tab.0.bottom" timestamp="1602466522910">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="368" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352166" />
-    <state width="1638" height="299" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433604" />
+    <state width="1638" height="238" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487565" />
+    <state width="1638" height="225" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602466522910" />
     <state width="1638" height="355" key="GridCell.Tab.0.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212485" />
-    <state width="1638" height="368" key="GridCell.Tab.0.center" timestamp="1599727352165">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="238" key="GridCell.Tab.0.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058002" />
+    <state width="1638" height="225" key="GridCell.Tab.0.center" timestamp="1602466522908">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="368" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352165" />
-    <state width="1638" height="299" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433602" />
+    <state width="1638" height="238" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487563" />
+    <state width="1638" height="225" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602466522908" />
     <state width="1638" height="355" key="GridCell.Tab.0.center/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212483" />
-    <state width="1638" height="368" key="GridCell.Tab.0.left" timestamp="1599727352164">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="238" key="GridCell.Tab.0.center/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058001" />
+    <state width="1638" height="225" key="GridCell.Tab.0.left" timestamp="1602466522907">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="368" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352164" />
+    <state width="1638" height="238" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487562" />
     <state width="1638" height="225" key="GridCell.Tab.0.left/0.0.1680.1050@45.23.1635.1027" timestamp="1597288747577" />
-    <state width="1638" height="299" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433601" />
+    <state width="1638" height="225" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602466522907" />
     <state width="1638" height="355" key="GridCell.Tab.0.left/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212482" />
-    <state width="1638" height="368" key="GridCell.Tab.0.right" timestamp="1599727352165">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="238" key="GridCell.Tab.0.left/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058000" />
+    <state width="1638" height="225" key="GridCell.Tab.0.right" timestamp="1602466522909">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="368" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352165" />
-    <state width="1638" height="299" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433603" />
+    <state width="1638" height="238" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487564" />
+    <state width="1638" height="225" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602466522909" />
     <state width="1638" height="355" key="GridCell.Tab.0.right/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212484" />
-    <state width="1638" height="355" key="GridCell.Tab.1.bottom" timestamp="1599727352161">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="238" key="GridCell.Tab.0.right/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058001" />
+    <state width="1638" height="238" key="GridCell.Tab.1.bottom" timestamp="1602397058003">
+      <screen x="47" y="23" width="1633" height="1027" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352161" />
+    <state width="1638" height="238" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487567" />
     <state width="1638" height="299" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433483" />
     <state width="1638" height="355" key="GridCell.Tab.1.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212491" />
-    <state width="1638" height="355" key="GridCell.Tab.1.center" timestamp="1599727352160">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="238" key="GridCell.Tab.1.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058003" />
+    <state width="1638" height="238" key="GridCell.Tab.1.center" timestamp="1602397058003">
+      <screen x="47" y="23" width="1633" height="1027" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352160" />
+    <state width="1638" height="238" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487566" />
     <state width="1638" height="299" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433482" />
     <state width="1638" height="355" key="GridCell.Tab.1.center/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212487" />
-    <state width="1638" height="355" key="GridCell.Tab.1.left" timestamp="1599727352159">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="238" key="GridCell.Tab.1.center/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058003" />
+    <state width="1638" height="238" key="GridCell.Tab.1.left" timestamp="1602397058002">
+      <screen x="47" y="23" width="1633" height="1027" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352159" />
+    <state width="1638" height="238" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487565" />
     <state width="1638" height="299" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433481" />
     <state width="1638" height="355" key="GridCell.Tab.1.left/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212486" />
-    <state width="1638" height="355" key="GridCell.Tab.1.right" timestamp="1599727352160">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="238" key="GridCell.Tab.1.left/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058002" />
+    <state width="1638" height="238" key="GridCell.Tab.1.right" timestamp="1602397058003">
+      <screen x="47" y="23" width="1633" height="1027" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599727352160" />
+    <state width="1638" height="238" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487566" />
     <state width="1638" height="299" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433483" />
     <state width="1638" height="355" key="GridCell.Tab.1.right/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212487" />
-    <state width="1638" height="355" key="GridCell.Tab.2.bottom" timestamp="1598604889072">
+    <state width="1638" height="238" key="GridCell.Tab.1.right/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058003" />
+    <state width="1638" height="238" key="GridCell.Tab.2.bottom" timestamp="1602227444410">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598604889072" />
+    <state width="1638" height="238" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602227444410" />
     <state width="1638" height="299" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433486" />
     <state width="1638" height="355" key="GridCell.Tab.2.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1597981043714" />
-    <state width="1638" height="355" key="GridCell.Tab.2.center" timestamp="1598604889071">
+    <state width="1638" height="355" key="GridCell.Tab.2.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1602218643957" />
+    <state width="1638" height="238" key="GridCell.Tab.2.center" timestamp="1602227444408">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598604889071" />
+    <state width="1638" height="238" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602227444408" />
     <state width="1638" height="299" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433485" />
     <state width="1638" height="355" key="GridCell.Tab.2.center/45.23.1635.1027@45.23.1635.1027" timestamp="1597981043712" />
-    <state width="1638" height="355" key="GridCell.Tab.2.left" timestamp="1598604889070">
+    <state width="1638" height="355" key="GridCell.Tab.2.center/47.23.1633.1027@47.23.1633.1027" timestamp="1602218643956" />
+    <state width="1638" height="238" key="GridCell.Tab.2.left" timestamp="1602227444408">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598604889070" />
+    <state width="1638" height="238" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602227444408" />
     <state width="1638" height="299" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433484" />
     <state width="1638" height="355" key="GridCell.Tab.2.left/45.23.1635.1027@45.23.1635.1027" timestamp="1597981043712" />
-    <state width="1638" height="355" key="GridCell.Tab.2.right" timestamp="1598604889071">
+    <state width="1638" height="355" key="GridCell.Tab.2.left/47.23.1633.1027@47.23.1633.1027" timestamp="1602218643955" />
+    <state width="1638" height="238" key="GridCell.Tab.2.right" timestamp="1602227444409">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="355" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598604889071" />
+    <state width="1638" height="238" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602227444409" />
     <state width="1638" height="299" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433485" />
     <state width="1638" height="355" key="GridCell.Tab.2.right/45.23.1635.1027@45.23.1635.1027" timestamp="1597981043713" />
+    <state width="1638" height="355" key="GridCell.Tab.2.right/47.23.1633.1027@47.23.1633.1027" timestamp="1602218643956" />
     <state x="723" y="398" width="429" height="253" key="MultipleFileMergeDialog" timestamp="1597134416353">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="723" y="398" width="429" height="253" key="MultipleFileMergeDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597134416353" />
-    <state x="349" y="164" key="SettingsEditor" timestamp="1599185894354">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="349" y="183" key="SettingsEditor" timestamp="1602466731403">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1599185894354" />
+    <state x="349" y="183" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1602466731403" />
     <state x="153" y="247" key="SettingsEditor/45.23.1635.1027@45.23.1635.1027" timestamp="1597634151625" />
     <state width="500" height="507" key="SwitcherDM" timestamp="1597891725247">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -923,10 +966,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="542" y="236" key="VCS.ChangeListViewerDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597127866000" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1599095572411">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1600077114210">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1599095572411" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1600077114210" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1597651830906">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -943,10 +986,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1598853796575" />
-    <state x="540" y="282" width="865" height="486" key="find.popup" timestamp="1599102573560">
+    <state x="540" y="282" width="865" height="486" key="find.popup" timestamp="1602222444554">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="540" y="282" width="865" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599102573560" />
+    <state x="540" y="282" width="865" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1602222444554" />
     <state x="654" y="250" key="git4idea.branch.GitBranchIsNotFullyMergedDialog" timestamp="1597127435427">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

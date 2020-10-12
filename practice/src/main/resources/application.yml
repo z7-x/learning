@@ -36,4 +36,11 @@ swagger:
     url: https://www.baidu.com
     email: https://mail.qq.com/
 
+# 自定义消息变量
+SendMessage:
+  WeChat: ${WECHAT_SEND}
+  DingDing: ${DINGDING_SEND}
+
+
+
 
