@@ -1,0 +1,38 @@
+server:
+  port: 5051
+spring:
+  #数据库连接配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/learning?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: root
+
+#mybatis的相关配置
+mybatis:
+  #mapper配置文件
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.mybatis.entity
+  #开启驼峰命名
+  configuration:
+    map-underscore-to-camel-case: true
+
+# 配置Swagger相关信息
+swagger:
+  title: SpringBoot + Mybatis API
+  description: Api Documentation
+  version: v.1.0
+  contact:
+    name: z7-x
+    url: https://www.baidu.com
+    email: https://mail.qq.com/
+
+# 配置日志信息
+logging:
+  config: classpath:templates/logback.xml
+  file:
+    path: ~/logs
+
+
+
+

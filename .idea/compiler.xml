@@ -6,15 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="swagger" />
-        <module name="practice" />
+        <module name="mybatis" />
         <module name="shrio" />
-        <module name="service" />
+        <module name="swagger" />
+        <module name="jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java8" target="1.8" />
-      <module name="practice" target="1.8" />
+      <module name="jpa" target="1.8" />
+      <module name="mybatis" target="1.8" />
       <module name="service" target="1.8" />
       <module name="shrio" target="1.8" />
       <module name="swagger" target="1.8" />
@@ -23,7 +24,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="java8" options="-parameters" />
-      <module name="practice" options="-parameters" />
+      <module name="jpa" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="shrio" options="-parameters" />
       <module name="swagger" options="-parameters" />

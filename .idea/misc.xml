@@ -10,8 +10,12 @@
         <option value="$PROJECT_DIR$/java8/pom.xml" />
         <option value="$PROJECT_DIR$/jpa/src/main/java/learning/service/pom.xml" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
+        <option value="$PROJECT_DIR$/practice/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/jpa/target" />
+  </component>
 </project>

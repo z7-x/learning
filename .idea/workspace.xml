@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="learn-practice" />
+      <module name="jpa" />
+    </loaded-modules>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,16 +32,170 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="568d4af5-0de7-4cab-91d3-e6722dc6da59" name="Default Changelist" comment="jdk5.0扩展后的新特性 创建多线程方式">
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/WeChatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/impl/SendMessageImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/newcreate/TestExecutors.java" afterDir="false" />
+    <list default="true" id="568d4af5-0de7-4cab-91d3-e6722dc6da59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_gitee_sunchenbin_mybatis_actable_mybatis_enhance_actable_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_21_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/MybatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/controller/MUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/entity/MUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/mapper/MUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/service/MUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/example/mybatis/service/impl/MUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/MUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/test/TestOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/test/TestOptional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/newcreate/TestCallables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/sql-scripts/构建用户数据.sql" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/sql-scripts/构建用户数据.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/annotation/service/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/annotation/service/MyAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/annotation/service/MyAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/annotation/service/MyAnnotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/annotation/test/TestAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/annotation/test/TestAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/bean/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/bean/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/bean/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/bean/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/instructions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/instructions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/EmployeeByAgeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/EmployeeByAgeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/EmployeeBySalaryFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/EmployeeBySalaryFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/ItemCreatorBlankConstruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/ItemCreatorBlankConstruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/ItemCreatorParamConstruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/ItemCreatorParamConstruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/MyFunInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/MyFunInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/MyFunInterface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/MyFunInterface2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/MyFunctionalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/MyFunctionalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/MyPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/MyPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/NoReturnMultiParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/NoReturnMultiParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/NoReturnNoParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/NoReturnNoParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/NoReturnOneParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/NoReturnOneParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/ReturnMultiParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/ReturnMultiParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/ReturnNoParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/ReturnNoParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/service/impl/ReturnOneParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/service/impl/ReturnOneParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/test/TestLambda1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/test/TestLambda1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/test/TestLambda2.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/test/TestLambda2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/test/TestLambda3.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/test/TestLambda3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/test/TestLambda4.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/test/TestLambda4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/lambda/test/TestLambda5.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/lambda/test/TestLambda5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/service/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/service/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/service/SubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/service/SubClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/service/impl/MyFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/service/impl/MyFun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/service/impl/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/service/impl/MyInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/test/TestDefaultMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/test/TestDefaultMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/optional/test/TestOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/optional/test/TestOptional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/stream/test/TestStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/stream/test/TestStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/time/service/DateFormatThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/time/service/DateFormatThreadLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/time/test/TestLocalDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/time/test/TestLocalDateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/time/test/TestSimpleDateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/time/test/TestSimpleDateFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/features/time/test/TestZoneDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/features/time/test/TestZoneDateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/JpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/JpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/bean/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/bean/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/bean/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/bean/basis/BaseBusEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/bean/basis/BaseBusEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/controller/AnalysisXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/AnalysisXMLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/controller/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/PermissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/dao/PermissionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/dao/PermissionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/dao/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/dao/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/dao/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/PermissionServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/PermissionServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/WeChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/WeChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/XMLDocumentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/XMLDocumentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/impl/BasisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/impl/BasisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/service/impl/SendMessageImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/service/impl/SendMessageImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/specification/PermissionSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/specification/PermissionSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/specification/UserSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/specification/UserSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/utils/DOM4XMLUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/utils/DOM4XMLUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/jpa/utils/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/jpa/utils/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/communication/TestCommunication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/communication/TestCommunication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/communication/TestProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/communication/TestProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/create/TestCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/create/TestRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/create/TestThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestThreadMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/create/TestThreadMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/create/TestThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/create/TestWindows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/create/TestWindows2.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/create/TestWindows2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsA/TestExtendsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/lock/MethodsA/TestExtendsThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsA/TestImpRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/lock/MethodsA/TestImpRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsB/TestSynExtendsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/lock/MethodsB/TestSynExtendsThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsB/TestSynMethodRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/lock/MethodsB/TestSynMethodRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/MethodsC/TestLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/lock/MethodsC/TestLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/TestAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/lock/TestAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/TestBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/lock/TestBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lock/TestDieLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/lock/TestDieLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/newcreate/TestCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/newcreate/TestCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/newcreate/TestExecutors.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/learning/multithreading/newcreate/TestExecutors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/resources/templates/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/resources/templates/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/test/java/learning/jpa/utils/MD5UtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/test/java/learning/jpa/utils/MD5UtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/resources/templates/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/templates/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +209,11 @@
         <option value="JUnit4 Test Class" />
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
-        <option value="Tag Library Descriptor" />
         <option value="JavaFXApplication" />
         <option value="XML File" />
         <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -104,6 +265,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -113,7 +275,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/com/example/springbootfreemarker" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lifecycle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -139,38 +301,38 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.mybatis" />
       <recent name="learning.jpa.dao" />
       <recent name="learning.jpa.dao.impl" />
       <recent name="learning.jpa.service.impl" />
       <recent name="learning.jpa.service" />
-      <recent name="learning.jpa" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis/src/main/resources" />
       <recent name="$PROJECT_DIR$/jpa/src/main" />
       <recent name="$PROJECT_DIR$/service/src/main/resources" />
       <recent name="$PROJECT_DIR$/service/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/jpa/src/main/java" />
-      <recent name="$PROJECT_DIR$/jpa/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis/src/main/resources" />
+      <recent name="$PROJECT_DIR$/practice/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/practice/src/main/java/learning/multithreading/lifecycle" />
       <recent name="$PROJECT_DIR$/jpa/src/main/java/learning/features/stream" />
       <recent name="$PROJECT_DIR$/jpa/src/main/java" />
-      <recent name="$PROJECT_DIR$/service" />
-      <recent name="$PROJECT_DIR$/service/src/main/resources/templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.mybatis.config" />
+      <recent name="learning.mybatis" />
       <recent name="learning.multithreading.suo" />
       <recent name="learning.features.annotation.service" />
       <recent name="learning.jpa.specification" />
-      <recent name="learning.jpa.utils" />
-      <recent name="learning.jpa.java8.service" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.springboot.service.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.JpaApplication">
+  <component name="RunManager" selected="Spring Boot.MybatisApplication">
     <configuration name="TestAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.multithreading.lock.TestAccount" />
       <module name="practice" />
@@ -223,22 +385,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOptional.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.features.optional.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learning.features.optional.test" />
-      <option name="MAIN_CLASS_NAME" value="learning.features.optional.test.TestOptional" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="practice" />
       <option name="VM_PARAMETERS" />
@@ -287,7 +433,18 @@
       </method>
     </configuration>
     <configuration name="JpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="practice" />
+      <module name="jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.jpa.JpaApplication" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="learning.jpa.JpaApplication" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="false" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="learning.jpa.JpaApplication" />
       <option name="ACTIVE_PROFILES" value="dev" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -309,16 +466,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="learning.service.SourceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SourcesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="learning.service.sources.SourcesApplication" />
+    <configuration name="MybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mybatis.MybatisApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -343,15 +496,12 @@
       <item itemvalue="Application.TestCommunication" />
       <item itemvalue="Application.TestExecutors" />
       <item itemvalue="Docker.PackProject" />
-      <item itemvalue="JUnit.TestOptional.test4" />
       <item itemvalue="Spring Boot.JpaApplication" />
-      <item itemvalue="Spring Boot.SourceApplication" />
-      <item itemvalue="Spring Boot.SourcesApplication" />
+      <item itemvalue="Spring Boot.MybatisApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestExecutors" />
-        <item itemvalue="JUnit.TestOptional.test4" />
         <item itemvalue="Application.TestCommunication" />
         <item itemvalue="Application.TestAccount" />
         <item itemvalue="Application.TestLock" />
@@ -560,6 +710,9 @@
       <workItem from="1602220742710" duration="6983000" />
       <workItem from="1602406957379" duration="141000" />
       <workItem from="1602466258423" duration="717000" />
+      <workItem from="1602477794088" duration="1545000" />
+      <workItem from="1602482778255" duration="12301000" />
+      <workItem from="1602552966717" duration="10365000" />
     </task>
     <task id="LOCAL-00001" summary="springboot+jpa">
       <created>1573534671543</created>
@@ -794,50 +947,68 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="474" y="210" key="#Inspections/0.0.1680.1050@0.0.1680.1050" timestamp="1598323673230" />
-    <state x="328" y="106" key="#Project_Structure" timestamp="1598594128422">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="725" y="406" key="#Notifications" timestamp="1602477822602">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="725" y="406" key="#Notifications/0.23.1680.1027@0.23.1680.1027" timestamp="1602477822602" />
+    <state x="328" y="127" key="#Project_Structure" timestamp="1602482537054">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1598594128422" />
+    <state x="328" y="127" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1602482537054" />
     <state x="577" y="349" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1597216406773">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="577" y="349" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597216406773" />
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602224017914">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602555356528">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602224017914" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602555356528" />
+    <state x="463" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1602493295170" />
     <state x="559" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597630481489">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="559" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1597630481489" />
+    <state x="474" y="231" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1602490398237">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="474" y="231" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1602490398237" />
     <state x="478" y="269" key="#com.intellij.ide.util.ExportDialog" timestamp="1597895895033">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="478" y="269" key="#com.intellij.ide.util.ExportDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597895895033" />
-    <state x="653" y="241" width="374" height="493" key="#com.intellij.ide.util.MemberChooser" timestamp="1602222131291">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="653" y="259" width="374" height="493" key="#com.intellij.ide.util.MemberChooser" timestamp="1602495665106">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="653" y="241" width="374" height="493" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1602222131291" />
-    <state x="577" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597129099430">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="653" y="259" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1602495665106" />
+    <state x="577" y="338" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602493294381">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="577" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597129099430" />
+    <state x="577" y="338" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1602493294381" />
+    <state x="460" y="232" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1602478180344">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="460" y="232" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1602478180344" />
     <state x="539" y="404" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1597982175973">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="539" y="404" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597982175973" />
-    <state x="402" y="456" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598513162278">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="402" y="469" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602493209824">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="402" y="456" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1598513162278" />
+    <state x="402" y="469" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1602493209824" />
     <state x="615" y="397" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597806734021">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="615" y="397" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1050@0.0.1680.1050" timestamp="1597806734021" />
-    <state x="615" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1597742115324">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="615" y="427" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602493212107">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="615" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1680.1050@0.0.1680.1050" timestamp="1597742115324" />
+    <state x="615" y="427" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1680.1027@0.23.1680.1027" timestamp="1602493212107" />
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597982269846">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -846,10 +1017,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="831" y="171" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1599536816288" />
-    <state x="354" y="117" key="CommitChangelistDialog2" timestamp="1600656695372">
+    <state x="324" y="117" key="CommitChangelistDialog2" timestamp="1602553023422">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="354" y="117" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1600656695372" />
+    <state x="324" y="117" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602553023422" />
     <state width="418" height="466" key="DebuggerActiveHint" timestamp="1597971841463">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -863,100 +1034,104 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="700" y="429" width="279" height="280" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597116645114" />
-    <state width="1638" height="225" key="GridCell.Tab.0.bottom" timestamp="1602466522910">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="631" key="GridCell.Tab.0.bottom" timestamp="1602570619874">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487565" />
-    <state width="1638" height="225" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602466522910" />
+    <state width="1638" height="631" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602570619874" />
+    <state width="1638" height="384" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602567885198" />
     <state width="1638" height="355" key="GridCell.Tab.0.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212485" />
     <state width="1638" height="238" key="GridCell.Tab.0.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058002" />
-    <state width="1638" height="225" key="GridCell.Tab.0.center" timestamp="1602466522908">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="631" key="GridCell.Tab.0.center" timestamp="1602570619873">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487563" />
-    <state width="1638" height="225" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602466522908" />
+    <state width="1638" height="631" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602570619873" />
+    <state width="1638" height="384" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602567885197" />
     <state width="1638" height="355" key="GridCell.Tab.0.center/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212483" />
     <state width="1638" height="238" key="GridCell.Tab.0.center/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058001" />
-    <state width="1638" height="225" key="GridCell.Tab.0.left" timestamp="1602466522907">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="631" key="GridCell.Tab.0.left" timestamp="1602570619872">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487562" />
+    <state width="1638" height="631" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602570619872" />
     <state width="1638" height="225" key="GridCell.Tab.0.left/0.0.1680.1050@45.23.1635.1027" timestamp="1597288747577" />
-    <state width="1638" height="225" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602466522907" />
+    <state width="1638" height="384" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602567885196" />
     <state width="1638" height="355" key="GridCell.Tab.0.left/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212482" />
     <state width="1638" height="238" key="GridCell.Tab.0.left/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058000" />
-    <state width="1638" height="225" key="GridCell.Tab.0.right" timestamp="1602466522909">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="631" key="GridCell.Tab.0.right" timestamp="1602570619873">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487564" />
-    <state width="1638" height="225" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602466522909" />
+    <state width="1638" height="631" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602570619873" />
+    <state width="1638" height="384" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602567885197" />
     <state width="1638" height="355" key="GridCell.Tab.0.right/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212484" />
     <state width="1638" height="238" key="GridCell.Tab.0.right/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058001" />
-    <state width="1638" height="238" key="GridCell.Tab.1.bottom" timestamp="1602397058003">
-      <screen x="47" y="23" width="1633" height="1027" />
+    <state width="1638" height="631" key="GridCell.Tab.1.bottom" timestamp="1602570619876">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487567" />
-    <state width="1638" height="299" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433483" />
+    <state width="1638" height="631" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602570619876" />
+    <state width="1638" height="384" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602567884909" />
     <state width="1638" height="355" key="GridCell.Tab.1.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212491" />
     <state width="1638" height="238" key="GridCell.Tab.1.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058003" />
-    <state width="1638" height="238" key="GridCell.Tab.1.center" timestamp="1602397058003">
-      <screen x="47" y="23" width="1633" height="1027" />
+    <state width="1638" height="631" key="GridCell.Tab.1.center" timestamp="1602570619875">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487566" />
-    <state width="1638" height="299" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433482" />
+    <state width="1638" height="631" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602570619875" />
+    <state width="1638" height="384" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602567884908" />
     <state width="1638" height="355" key="GridCell.Tab.1.center/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212487" />
     <state width="1638" height="238" key="GridCell.Tab.1.center/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058003" />
-    <state width="1638" height="238" key="GridCell.Tab.1.left" timestamp="1602397058002">
-      <screen x="47" y="23" width="1633" height="1027" />
+    <state width="1638" height="631" key="GridCell.Tab.1.left" timestamp="1602570619875">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487565" />
-    <state width="1638" height="299" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433481" />
+    <state width="1638" height="631" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602570619875" />
+    <state width="1638" height="384" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602567884908" />
     <state width="1638" height="355" key="GridCell.Tab.1.left/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212486" />
     <state width="1638" height="238" key="GridCell.Tab.1.left/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058002" />
-    <state width="1638" height="238" key="GridCell.Tab.1.right" timestamp="1602397058003">
-      <screen x="47" y="23" width="1633" height="1027" />
+    <state width="1638" height="631" key="GridCell.Tab.1.right" timestamp="1602570619876">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602227487566" />
-    <state width="1638" height="299" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433483" />
+    <state width="1638" height="631" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602570619876" />
+    <state width="1638" height="384" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602567884909" />
     <state width="1638" height="355" key="GridCell.Tab.1.right/45.23.1635.1027@45.23.1635.1027" timestamp="1599556212487" />
     <state width="1638" height="238" key="GridCell.Tab.1.right/47.23.1633.1027@47.23.1633.1027" timestamp="1602397058003" />
-    <state width="1638" height="238" key="GridCell.Tab.2.bottom" timestamp="1602227444410">
+    <state width="1638" height="631" key="GridCell.Tab.2.bottom" timestamp="1602570619879">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602227444410" />
-    <state width="1638" height="299" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433486" />
+    <state width="1638" height="631" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602570619879" />
+    <state width="1638" height="384" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602567884911" />
     <state width="1638" height="355" key="GridCell.Tab.2.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1597981043714" />
     <state width="1638" height="355" key="GridCell.Tab.2.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1602218643957" />
-    <state width="1638" height="238" key="GridCell.Tab.2.center" timestamp="1602227444408">
+    <state width="1638" height="631" key="GridCell.Tab.2.center" timestamp="1602570619878">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602227444408" />
-    <state width="1638" height="299" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433485" />
+    <state width="1638" height="631" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602570619878" />
+    <state width="1638" height="384" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602567884910" />
     <state width="1638" height="355" key="GridCell.Tab.2.center/45.23.1635.1027@45.23.1635.1027" timestamp="1597981043712" />
     <state width="1638" height="355" key="GridCell.Tab.2.center/47.23.1633.1027@47.23.1633.1027" timestamp="1602218643956" />
-    <state width="1638" height="238" key="GridCell.Tab.2.left" timestamp="1602227444408">
+    <state width="1638" height="631" key="GridCell.Tab.2.left" timestamp="1602570619877">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602227444408" />
-    <state width="1638" height="299" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433484" />
+    <state width="1638" height="631" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602570619877" />
+    <state width="1638" height="384" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602567884910" />
     <state width="1638" height="355" key="GridCell.Tab.2.left/45.23.1635.1027@45.23.1635.1027" timestamp="1597981043712" />
     <state width="1638" height="355" key="GridCell.Tab.2.left/47.23.1633.1027@47.23.1633.1027" timestamp="1602218643955" />
-    <state width="1638" height="238" key="GridCell.Tab.2.right" timestamp="1602227444409">
+    <state width="1638" height="631" key="GridCell.Tab.2.right" timestamp="1602570619878">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602227444409" />
-    <state width="1638" height="299" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597651433485" />
+    <state width="1638" height="631" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602570619878" />
+    <state width="1638" height="384" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602567884911" />
     <state width="1638" height="355" key="GridCell.Tab.2.right/45.23.1635.1027@45.23.1635.1027" timestamp="1597981043713" />
     <state width="1638" height="355" key="GridCell.Tab.2.right/47.23.1633.1027@47.23.1633.1027" timestamp="1602218643956" />
     <state x="723" y="398" width="429" height="253" key="MultipleFileMergeDialog" timestamp="1597134416353">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="723" y="398" width="429" height="253" key="MultipleFileMergeDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597134416353" />
-    <state x="349" y="183" key="SettingsEditor" timestamp="1602466731403">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="490" y="289" key="NewModule_or_Project.wizard" timestamp="1602553517730">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1599185894354" />
-    <state x="349" y="183" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1602466731403" />
+    <state x="490" y="289" key="NewModule_or_Project.wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1602553517730" />
+    <state x="349" y="164" key="SettingsEditor" timestamp="1602553546536">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1602553546536" />
+    <state x="349" y="183" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1602477925732" />
     <state x="153" y="247" key="SettingsEditor/45.23.1635.1027@45.23.1635.1027" timestamp="1597634151625" />
     <state width="500" height="507" key="SwitcherDM" timestamp="1597891725247">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -1006,10 +1181,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597895324190" />
-    <state x="234" y="87" width="1247" height="875" key="new project wizard" timestamp="1597743987444">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="234" y="108" width="1247" height="875" key="new project wizard" timestamp="1602493077453">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="234" y="87" width="1247" height="875" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1597743987444" />
+    <state x="234" y="108" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1602493077453" />
     <state x="640" y="391" key="scopes" timestamp="1597830419917">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -1018,6 +1194,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599539789505" />
+    <state x="390" y="227" key="spring file set editor" timestamp="1602490654688">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="390" y="227" key="spring file set editor/0.23.1680.1027@0.23.1680.1027" timestamp="1602490654688" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
