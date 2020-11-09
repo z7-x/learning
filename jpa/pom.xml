@@ -72,6 +72,18 @@
             <version>3.1</version>
         </dependency>
 
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency><!--end-->
+
+        <dependency><!--excel-->
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+
         <dependency> <!-- swagger2API文档支持 start-->
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
@@ -85,6 +97,10 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
         </dependency><!-- swagger2API文档支持 end-->
 
     </dependencies>

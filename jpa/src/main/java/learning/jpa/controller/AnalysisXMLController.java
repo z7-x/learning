@@ -21,7 +21,7 @@ public class AnalysisXMLController {
     @Autowired
     private XMLDocumentService xmlDocumentService;
 
-    final String filePath = "jpa/src/main/java/learning/jpa/lambda/instructions.xml";
+    final String filePath = "/Volumes/工作文档/spring/boot-test/springboot/learn-practice/jpa/src/main/java/learning/features/lambda/instructions.xml";
 
     @ApiOperation(value = "dom解析xml", notes = "dom解析xml")
     @RequestMapping(method = RequestMethod.GET, value = "/dom")

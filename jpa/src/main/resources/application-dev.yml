@@ -3,7 +3,7 @@ spring:
     name: server
   datasource:
     name: datasource
-    url: jdbc:mysql://127.0.0.1:3306/learning?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://127.0.0.1:3306/trial?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root

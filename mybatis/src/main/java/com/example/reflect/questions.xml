@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<reflect:root xmlns:reflect="http://www.w3.org/1999/xhtml">
+    <title>关于反射的面试题</title>
+    <span>【1】创建Person的对象，以后用new Person()创建还是用反射创建</span>
+    <p>
+
+    </p>
+    <span>【2】反射是否破坏了面向对象的封装行</span>
+    <p>
+
+    </p>
+
+</reflect:root>
