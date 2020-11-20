@@ -18,7 +18,7 @@ import java.util.List;
  */
 @Service
 @Transactional
-public class MUserServiceImpl  implements MUserService {
+public class MUserServiceImpl implements MUserService {
 
     @Autowired
     private MUserMapper mUserMapper;
@@ -29,4 +29,18 @@ public class MUserServiceImpl  implements MUserService {
         return mUserMapper.findByMUsers();
     }
 
+    @Override
+    public void insertMUser(MUser mUser) {
+        mUserMapper.insertMUser(mUser);
+    }
+
+    @Override
+    public Integer deleteUser(String id) {
+        return mUserMapper.deleteUser(id);
+    }
+
+    @Override
+    public void updateUser(MUser mUser) {
+        mUserMapper.updateUser(mUser);
+    }
 }

@@ -16,4 +16,19 @@ public interface MUserService {
      * @return
      */
     List<MUser> findByMUsers();
+
+    /**
+     *  添加用户
+     */
+    void insertMUser(MUser mUser);
+
+    /**
+     * 删除用户
+     */
+    Integer deleteUser(String id);
+
+    /**
+     * 修改用户
+     */
+    void updateUser(MUser mUser);
 }

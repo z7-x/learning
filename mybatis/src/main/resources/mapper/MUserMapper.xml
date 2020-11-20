@@ -6,7 +6,25 @@
             2.UserMapper.xml文件名称必须与使用@Mapper的接口一致
             3.标签中的id必须与@Mapper的接口中的方法名一致，且参数一致
     -->
+    <!--
+    parameterType="int" 表示该查询语句需要一个int类型的参数
+    resultType="user" 表示返回的是一个user对象
+    useGeneratedKeys="true" 表示使用数据库的自动增长策略
+    -->
     <select id="findByMUsers" resultType="com.example.mybatis.entity.MUser">
         SELECT * FROM LEARN_USER
     </select>
+
+    <insert id="insertMUser"  parameterType="com.example.mybatis.entity.MUser">
+        INSERT INTO LEARN_USER(USER_ID,USER_NAME,PASS_WORD) VALUES(#{userId},#{userName},#{passWord})
+    </insert>
+
+    <delete id="deleteUser" parameterType="java.lang.String">
+        DELETE FROM LEARN_USER WHERE USER_ID = #{id}
+    </delete>
+
+    <update id="updateUser" parameterType="com.example.mybatis.entity.MUser">
+        UPDATE LEARN_USER SET user_name=#{userName},pass_word = #{passWord} where user_Id =CONCAT(#{userId})
+    </update>
+
 </mapper>

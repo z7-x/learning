@@ -15,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="java8" target="1.8" />
       <module name="jpa" target="1.8" />
+      <module name="learn-practice" target="1.5" />
       <module name="mybatis" target="1.8" />
       <module name="service" target="1.8" />
       <module name="shrio" target="1.8" />

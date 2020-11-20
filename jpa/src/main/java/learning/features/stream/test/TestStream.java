@@ -29,7 +29,7 @@ public class TestStream {
             new Employee("赵六", 26, 6666.66),
             new Employee("赵六", 26, 6666.66),
             new Employee("赵六", 26, 6666.66),
-            new Employee("田七", 24, 5555.55)
+            new Employee("赵六", 24, 5555.55)
     );
 
     private static List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5);
@@ -110,12 +110,27 @@ public class TestStream {
     //去除重复数据
     @Test
     public void test5() {
-        List<Employee> collect = employees.stream().filter(distinctByKey(Employee::getName)).collect(Collectors.toList());
+        List<Employee> collect =
+                employees.stream().filter(distinctByKey(Employee::getName)).collect(Collectors.toList());
         collect.forEach(employee -> System.out.println(employee));
     }
 
     public static <T> Predicate<T> distinctByKey(Function<? super T, ?> keyExtractor) {
         Map<Object, Boolean> seen = new ConcurrentHashMap<>();
         return t -> seen.putIfAbsent(keyExtractor.apply(t), Boolean.TRUE) == null;
+    }
+
+    //去除list<Employee>集合中 name字段为null的实体
+    @Test
+    public void test6() {
+        List<Employee> collect = employees.stream().filter(
+                employee -> {
+                    if (employee.getName() == null) {
+                        return false;
+                    }
+                    return true;
+                }
+        ).collect(Collectors.toList());
+        collect.forEach(employee -> System.out.println(employee));
     }
 }

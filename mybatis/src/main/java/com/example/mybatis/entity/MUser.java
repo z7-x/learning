@@ -27,7 +27,6 @@ import java.io.Serializable;
 public class MUser implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @ApiModelProperty(value = "用户编号")
     private String userId;
 
